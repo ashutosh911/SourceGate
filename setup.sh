@@ -9,7 +9,7 @@ mkdir -p phase5_results checkpoints
 cp stage1_results/results-1/*  phase5_results/
 cp stage1_results/results-2/*  phase5_results/
 cp stage2_results/*            phase5_results/
-
+cp missing_arrays/*            phase5_results/
 cp checkpoint_a/checkpoints/*  checkpoints/
 cp checkpoint_b/*              checkpoints/
 

@@ -1,0 +1,33 @@
+{
+  "prefrag_conf": {
+    "method": "prefrag_conf",
+    "reader": "Llama-3.1-8B-Instruct-4bit",
+    "n": 1286,
+    "f1_mean": 0.3234483151158975,
+    "em_mean": 0.23950233281493002,
+    "recall_at_picked": 0.6594090202177294,
+    "nll_mean": 6.503689279081662,
+    "per_type_f1": {
+      "table": 0.10740645909970356,
+      "text": 0.43798478523791906,
+      "kg": 0.30171677812696474
+    },
+    "per_type_n": {
+      "table": 359,
+      "text": 717,
+      "kg": 210
+    },
+    "routing_acc": 0.6057542768273717,
+    "routing_macro": 0.5882242649704567,
+    "routing_per_type_acc": {
+      "text": 0.6541143654114365,
+      "table": 0.5153203342618384,
+      "kg": 0.5952380952380952
+    }
+  },
+  "api_cost": {
+    "total_usd": 0.0,
+    "input_tokens": 31201,
+    "output_tokens": 130
+  }
+}

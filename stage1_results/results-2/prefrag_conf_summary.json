@@ -1,0 +1,13 @@
+{
+  "method": "PrefRAG-Conf",
+  "description": "Staged re-ranking via question-token log-probability (no training, no gold labels)",
+  "n_queries": 1286,
+  "top_k": 10,
+  "routing_acc": 0.6057542768273717,
+  "routing_macro": 0.5882242649704567,
+  "routing_per_type_acc": {
+    "text": 0.6541143654114365,
+    "table": 0.5153203342618384,
+    "kg": 0.5952380952380952
+  }
+}

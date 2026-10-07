@@ -1,0 +1,72 @@
+{
+  "oracle": {
+    "nll_mean": 3.7843383825724457,
+    "nll_median": 3.536675453186035,
+    "n_scored": 1286,
+    "pick_dist": {
+      "text": 717,
+      "table": 359,
+      "kg": 210
+    }
+  },
+  "random": {
+    "nll_mean": 3.883332873136964,
+    "nll_median": 3.6468093395233154,
+    "n_scored": 1286,
+    "pick_dist": {
+      "text": 417,
+      "table": 426,
+      "kg": 443
+    }
+  },
+  "bge_confidence": {
+    "nll_mean": 3.828141804923583,
+    "nll_median": 3.6124085187911987,
+    "n_scored": 1286,
+    "pick_dist": {
+      "text": 790,
+      "table": 297,
+      "kg": 199
+    }
+  },
+  "logreg": {
+    "nll_mean": 3.8518113600985258,
+    "nll_median": 3.6124085187911987,
+    "n_scored": 1286,
+    "pick_dist": {
+      "text": 718,
+      "table": 359,
+      "kg": 209
+    }
+  },
+  "majority": {
+    "nll_mean": 3.9415840726652838,
+    "nll_median": 3.710665464401245,
+    "n_scored": 1286,
+    "pick_dist": {
+      "text": 1286,
+      "table": 0,
+      "kg": 0
+    }
+  },
+  "mlp_hardce": {
+    "nll_mean": 3.8213163736460274,
+    "nll_median": 3.582512378692627,
+    "n_scored": 1286,
+    "pick_dist": {
+      "text": 630,
+      "table": 362,
+      "kg": 294
+    }
+  },
+  "prefrag_conf": {
+    "nll_mean": 3.788731141505447,
+    "nll_median": 3.5711318254470825,
+    "n_scored": 1286,
+    "pick_dist": {
+      "text": 645,
+      "table": 257,
+      "kg": 384
+    }
+  }
+}

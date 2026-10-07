@@ -1,0 +1,38 @@
+{
+  "note": "E5-base end-to-end scores regenerated under the corrected reader pipeline (script_10 SYSTEM_PROMPT + context[:3000] truncation). Directly comparable to the BGE-base rows of Table 4/9, which already use that pipeline.",
+  "bge_base_reference": {
+    "oracle": {
+      "f1": 0.364,
+      "em": 0.261,
+      "recall_at_picked": 0.802
+    },
+    "no_routing": {
+      "f1": 0.364,
+      "em": 0.262
+    }
+  },
+  "e5_corrected": {
+    "oracle": {
+      "method": "oracle",
+      "encoder": "E5-base-v2",
+      "n": 1286,
+      "reader": "Llama-3.1-8B-Instruct-4bit (corrected pipeline)",
+      "f1_mean": 0.3708156583715554,
+      "em_mean": 0.27216174183514774,
+      "recall_at_picked": 0.8141524105754276,
+      "f1_prefix_pipeline": 0.16694475602049869,
+      "em_prefix_pipeline": 0.0660964230171073
+    },
+    "no_routing": {
+      "method": "no_routing",
+      "encoder": "E5-base-v2",
+      "n": 1286,
+      "reader": "Llama-3.1-8B-Instruct-4bit (corrected pipeline)",
+      "f1_mean": 0.3609618289593135,
+      "em_mean": 0.27060653188180406,
+      "recall_at_picked": null,
+      "f1_prefix_pipeline": 0.17165624440599206,
+      "em_prefix_pipeline": 0.06765163297045101
+    }
+  }
+}

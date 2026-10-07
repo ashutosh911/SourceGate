@@ -1,0 +1,84 @@
+{
+  "n": 1286,
+  "n_scored": 1286,
+  "donors": 3,
+  "seed": 20260925,
+  "macro": {
+    "raw": 0.5896176701237249,
+    "minus_source_constant": 0.5978522468843095,
+    "contrastive_M1": 0.5670662994085798,
+    "contrastive_M2": 0.5734568158176275,
+    "contrastive_M3": 0.5846463290933636
+  },
+  "variance": {
+    "contrastive_M1": {
+      "share_query": 0.47477347486951027,
+      "share_source": 0.04012114581320296,
+      "share_interaction": 0.4851053793172868,
+      "ss_total": 1639.672169283911,
+      "ss_query": 778.4728534577503,
+      "ss_source": 65.7855261896906,
+      "ss_interaction": 795.4137896364701,
+      "ms_interaction": 0.3094995290414281
+    },
+    "contrastive_M2": {
+      "share_query": 0.4771752532612712,
+      "share_source": 0.043634803217170365,
+      "share_interaction": 0.47918994352155847,
+      "ss_total": 1518.7409408462045,
+      "ss_query": 724.7055930865489,
+      "ss_source": 66.2699620916843,
+      "ss_interaction": 727.7653856679713,
+      "ms_interaction": 0.2831771928669149
+    },
+    "contrastive_M3": {
+      "share_query": 0.4716760698965074,
+      "share_source": 0.044674461517327235,
+      "share_interaction": 0.48364946858616537,
+      "ss_total": 1465.9739645615862,
+      "ss_query": 691.4648381750108,
+      "ss_source": 65.49159746521022,
+      "ss_interaction": 709.0175289213652,
+      "ms_interaction": 0.27588230697329386
+    },
+    "real": {
+      "share_query": 0.750650150214251,
+      "share_source": 0.032240789121800235,
+      "share_interaction": 0.21710906066394878,
+      "ss_total": 3123.4909185846145,
+      "ss_query": 2344.6489272283898,
+      "ss_source": 100.70381202994467,
+      "ss_interaction": 678.1381793262801,
+      "ms_interaction": 0.2638669958468016
+    },
+    "negative_M1": {
+      "share_query": 0.9421308451487,
+      "share_source": 0.002036587013694221,
+      "share_interaction": 0.0558325678376057,
+      "ss_total": 2544.114866353164,
+      "ss_query": 2396.8890891926785,
+      "ss_source": 5.181311298161262,
+      "ss_interaction": 142.0444658623242,
+      "ms_interaction": 0.05527022017989268
+    }
+  },
+  "mean_nll": {
+    "real": {
+      "text": 2.7474,
+      "table": 3.1432,
+      "kg": 2.9436
+    },
+    "negative": {
+      "text": 3.6651,
+      "table": 3.7454,
+      "kg": 3.6613
+    }
+  },
+  "reference": {
+    "raw_published": 0.5883,
+    "source_calibration_oracle": 0.652,
+    "bge_confidence": 0.661,
+    "sourcegate": 0.737,
+    "random": 0.337
+  }
+}

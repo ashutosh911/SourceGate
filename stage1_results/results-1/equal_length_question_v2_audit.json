@@ -1,0 +1,63 @@
+{
+  "status": "authoritative post-hoc evaluation of completed v2 cache",
+  "cache": "equal_length_question_v2_cache_B.json",
+  "n": 1286,
+  "condition": {
+    "name": "common_85_token_budget",
+    "target_tokens": 85,
+    "score_span": "question tokens",
+    "retrieval_mapping": "FAISS chunk_ids.npy"
+  },
+  "label_construction": "sum constituent dataset relevance within K=3 source type, then argmax",
+  "equalized": {
+    "accuracy": 0.5878693623639192,
+    "macro": 0.5636966343123614,
+    "per_type": {
+      "text": 0.6596931659693166,
+      "table": 0.4456824512534819,
+      "kg": 0.5857142857142857
+    },
+    "set_valued_accuracy": 0.6158631415241057,
+    "prediction_counts": {
+      "text": 679,
+      "table": 242,
+      "kg": 365
+    },
+    "mean_nll": {
+      "text": 2.7250066112211297,
+      "table": 3.1653879495282564,
+      "kg": 2.957909795025459
+    }
+  },
+  "corrected_variable_length_original": {
+    "accuracy": 0.6057542768273717,
+    "macro": 0.5882242649704567,
+    "per_type": {
+      "text": 0.6541143654114365,
+      "table": 0.5153203342618384,
+      "kg": 0.5952380952380952
+    },
+    "set_valued_accuracy": 0.6368584758942457,
+    "prediction_counts": {
+      "text": 645,
+      "table": 257,
+      "kg": 384
+    },
+    "mean_nll_excluding_error_sentinel": {
+      "text": 2.7474760699828775,
+      "table": 3.143760659924562,
+      "kg": 2.9431302024232737
+    },
+    "error_sentinel_count": {
+      "text": 1,
+      "table": 0,
+      "kg": 1
+    }
+  },
+  "delta_macro_equalized_minus_original": -0.024527630658095268,
+  "text_minus_kg_nll_gap": {
+    "equalized": -0.2329031838043294,
+    "original_excluding_error_sentinel": -0.1956541324403962
+  },
+  "conclusion": "The corrected result does not reproduce macro 0.303, KG collapse, an anti-informative residual, or the claimed 47/53 length-format decomposition. At the common 85-token budget, macro remains 0.564 versus 0.588 under corrected variable-length retrieval."
+}

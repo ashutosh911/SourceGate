@@ -1,0 +1,50 @@
+{
+  "n": 1286,
+  "agreement_rate": 0.5489891135303266,
+  "subsets": {
+    "agree": {
+      "n": 706,
+      "routed_f1": 0.388327712265144,
+      "union_f1": 0.3840535133147704,
+      "oracle_f1": 0.39710545482475634,
+      "route_correct": 0.8229461756373938
+    },
+    "disagree": {
+      "n": 580,
+      "routed_f1": 0.28273281311251497,
+      "union_f1": 0.3405016303486573,
+      "oracle_f1": 0.3227702341449184,
+      "route_correct": 0.5706896551724138
+    }
+  },
+  "mean_f1": {
+    "SourceGate (supervised)": 0.340703263191641,
+    "SourceGate (joint)": 0.33672911629561153,
+    "PrefRAG-Conf [STALE picks, do not cite]": 0.2558276498418697,
+    "No routing (union)": 0.3644111399708003,
+    "GATE: agree->route, else union": 0.3667576286636181,
+    "GATE (joint router)": 0.36277518031880585,
+    "Oracle routing": 0.3635794610500238
+  },
+  "frac_union_calls": 0.4510108864696734,
+  "gate_vs": {
+    "vs SourceGate": {
+      "mean": 0.025957602826868934,
+      "ci95": [
+        0.015028992047978236,
+        0.03706172473456783
+      ],
+      "p_two_sided": 0.0
+    },
+    "vs union": {
+      "mean": 0.002341969317320982,
+      "ci95": [
+        -0.005884961835583919,
+        0.010628467963495042
+      ],
+      "p_two_sided": 0.5858
+    }
+  },
+  "reference_existing_hybrid_crossfit_f1": 0.4408,
+  "cost_note": "gate requires PrefRAG-Conf's K reader passes (669.5 ms/query, Table 10) to compute agreement; report on the Pareto plot"
+}

@@ -1,0 +1,79 @@
+{
+  "sg_phase3": {
+    "recall_at_picked": 0.7135821669258683,
+    "source": "exact (phase5_metrics)"
+  },
+  "sg_phase4": {
+    "recall_at_picked": 0.7249870399170554,
+    "source": "exact (phase5_metrics)"
+  },
+  "oracle": {
+    "recall_at_picked": 0.80248833592535,
+    "source": "exact (phase5_metrics)"
+  },
+  "random": {
+    "recall_at_picked": 0.3849144634525661,
+    "source": "exact (phase5_metrics)"
+  },
+  "majority": {
+    "recall_at_picked": 0.5583203732503889,
+    "source": "exact (phase5_metrics)"
+  },
+  "bge_confidence": {
+    "recall_at_picked": 0.7776049766718507,
+    "source": "exact (FAISS)"
+  },
+  "prefrag_conf": {
+    "recall_at_picked": 0.3001555209953344,
+    "source": "exact (FAISS)"
+  },
+  "logistic_regression": {
+    "recall_at_picked": 0.7216174183514774,
+    "source": "exact (FAISS)"
+  },
+  "mlp_hard_ce": {
+    "recall_at_picked": 0.7384655261793677,
+    "recall_at_picked_std": 0.017253954630007926,
+    "per_seed": [
+      0.7542768273716952,
+      0.7410575427682737,
+      0.7200622083981337
+    ],
+    "source": "exact (FAISS)"
+  },
+  "r3ag_full": {
+    "recall_at_picked": 0.3540694660445827,
+    "recall_at_picked_std": 0.002499650275011137,
+    "per_seed": [
+      0.3569206842923795,
+      0.35303265940902023,
+      0.3522550544323484
+    ],
+    "macro_sum_convention": 0.347749310897759,
+    "macro_id_convention": 0.347063781703894,
+    "macro_as_published": 0.347749310897759,
+    "source": "exact (FAISS)"
+  },
+  "gpt4o_zeroshot": {
+    "recall_at_picked": 0.6461897356143079,
+    "macro_sum_convention": 0.5420877175553694,
+    "macro_id_convention": 0.5451378309344611,
+    "macro_as_published": 0.5451378309344611,
+    "note": "Table 4 publishes the id-convention macro; the sum-convention value is the one comparable with every other row.",
+    "n_seeds": 1,
+    "source": "exact (FAISS)"
+  },
+  "r3ag_rq": {
+    "recall_at_picked": 0.73950233281493,
+    "recall_at_picked_std": 0.0038880248833592645,
+    "per_seed": [
+      0.7433903576982893,
+      0.73950233281493,
+      0.7356143079315708
+    ],
+    "macro_sum_convention": 0.6634182801115588,
+    "macro_id_convention": 0.6710648200782696,
+    "macro_as_published": 0.6634182801115588,
+    "source": "exact (FAISS)"
+  }
+}

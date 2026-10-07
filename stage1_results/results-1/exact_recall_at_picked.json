@@ -1,0 +1,44 @@
+{
+  "bge_confidence": {
+    "routing_relevance": 0.9051321928460342,
+    "calibrated_recall_at_picked": 0.7139104329014812
+  },
+  "prefrag_conf": {
+    "routing_relevance": 0.46967340590979784,
+    "calibrated_recall_at_picked": 0.3122479198828224
+  },
+  "logistic_regression": {
+    "routing_relevance": 0.8499222395023328,
+    "calibrated_recall_at_picked": 0.6629853642866155
+  },
+  "sg_phase3": {
+    "routing_relevance": 0.9082426127527217,
+    "calibrated_recall_at_picked": 0.714,
+    "paper_r_at_p_exact": 0.714
+  },
+  "random": {
+    "routing_relevance": 0.5505443234836703,
+    "paper_r_at_p_exact": 0.385,
+    "calibrated_recall_at_picked": 0.385
+  },
+  "majority": {
+    "routing_relevance": 0.7317262830482115,
+    "paper_r_at_p_exact": 0.558,
+    "calibrated_recall_at_picked": 0.558
+  },
+  "oracle": {
+    "routing_relevance": 1.0,
+    "paper_r_at_p_exact": 0.802,
+    "calibrated_recall_at_picked": 0.802
+  },
+  "mlp_hard_ce": {
+    "routing_relevance": 0.8926905132192845,
+    "routing_relevance_std": 0.0035634336663731216,
+    "calibrated_recall_at_picked": 0.7024343611009479,
+    "per_seed": [
+      0.8934681181959565,
+      0.895800933125972,
+      0.8888024883359253
+    ]
+  }
+}

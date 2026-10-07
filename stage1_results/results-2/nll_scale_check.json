@@ -1,0 +1,11 @@
+{
+  "n": 200,
+  "oracle_nll_current_code": 6.149097057282924,
+  "oracle_nll_published": 3.784,
+  "prefrag_conf_rerun": 6.504,
+  "subsample_composition": {
+    "text": 112,
+    "table": 59,
+    "kg": 29
+  }
+}

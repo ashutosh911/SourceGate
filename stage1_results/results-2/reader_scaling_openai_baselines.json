@@ -1,0 +1,70 @@
+{
+  "random": {
+    "method": "random",
+    "reader": "GPT-4o-mini",
+    "n": 1286,
+    "f1_mean": 0.3503962107322088,
+    "em_mean": 0.25038880248833595,
+    "recall_at_picked": 0.3856920684292379,
+    "per_type_f1": {
+      "table": 0.12840772514216953,
+      "text": 0.47976254171744376,
+      "kg": 0.2881971964960687
+    },
+    "per_type_n": {
+      "table": 359,
+      "text": 717,
+      "kg": 210
+    },
+    "routing_acc": 0.3328149300155521,
+    "routing_macro": 0.33654513961153737,
+    "routing_per_type_acc": {
+      "text": 0.3277545327754533,
+      "table": 0.3342618384401114,
+      "kg": 0.3476190476190476
+    }
+  },
+  "majority": {
+    "method": "majority",
+    "reader": "GPT-4o-mini",
+    "n": 1286,
+    "f1_mean": 0.363211935892244,
+    "em_mean": 0.25194401244167963,
+    "recall_at_picked": 0.5583203732503889,
+    "per_type_f1": {
+      "table": 0.10158428196879776,
+      "text": 0.5358780829626739,
+      "kg": 0.22093908022090547
+    },
+    "per_type_n": {
+      "table": 359,
+      "text": 717,
+      "kg": 210
+    },
+    "routing_acc": 0.557542768273717,
+    "routing_macro": 0.3333333333333333,
+    "routing_per_type_acc": {
+      "text": 1.0,
+      "table": 0.0,
+      "kg": 0.0
+    }
+  },
+  "no_routing": {
+    "method": "no_routing",
+    "reader": "GPT-4o-mini",
+    "n": 1286,
+    "f1_mean": 0.4421626160611405,
+    "em_mean": 0.30793157076205285,
+    "recall_at_picked": 0.7954898911353032,
+    "per_type_f1": {
+      "table": 0.27868267254677204,
+      "text": 0.5539038990951444,
+      "kg": 0.34011880551960466
+    },
+    "per_type_n": {
+      "table": 359,
+      "text": 717,
+      "kg": 210
+    }
+  }
+}

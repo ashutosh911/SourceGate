@@ -1,0 +1,9 @@
+{
+  "pre": {
+    "skipped": true,
+    "macro_acc": -Infinity
+  },
+  "steps": [],
+  "validations": [],
+  "answer_bridge_grad_norm": 0.0
+}

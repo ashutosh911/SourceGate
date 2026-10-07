@@ -1,0 +1,6444 @@
+{
+  "model": "gpt-4o-mini",
+  "n_queries": 1286,
+  "n_unparsed": 0,
+  "acc": 0.6111975116640747,
+  "macro_acc": 0.5451378309344611,
+  "per_type_acc": {
+    "text": 0.7382352941176471,
+    "table": 0.5125628140703518,
+    "kg": 0.38461538461538464
+  },
+  "records": [
+    {
+      "question": "How many purchases of fictional marsupial books by the person who wrote Horton Hears A Who ! have occurred ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "The Niger football team to win a double in the season of 2008 and a number of 1 is sponsored by what group ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the capacity of the indoor arena whose country consists of about 7,641 islands ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "The first male from Ireland to win the London marathon last competed at the Summer Paralympics in which year ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "In what municipality is the Swedish castle with initial M-P ruins in Scania ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "Where did this Boise State University scholar , who is professor at the public research university in Williamsburg , Virginia , obtain his doctorate degree ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What Stadium held the competition that had an athlete that studied at Kendriya Vidyalaya Akkulam at the 2010 Summer Youth Olympics ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "When did the Japanese individual rope competitor in the 1999 World Rhythmic Gymnastics Championships compete in the Olympics ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "in which canton , belonging to Cantons of Switzerland , does the city of geneva lie in ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "How many albums and singles have the singers of Super Best II sold in Japan to date ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "Which of the 20 year olds who were loaned out by Santos FC in the 2011 season was born at the earliest date ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "Which Olympics was held in the city containing Georgia Dome which hosted the ACC Men 's Basketball Tournament ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "Which railway station , located in Merseyside , has a car park ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "what is the 1992 Croatian First Football League club with a head coach born 4/19/1938 ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What county contains the city that is home to 2009 Allsvenskan team IF Elfsborg ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "With the President who implemented the Marshall Plan , what was the political party that the Secretary of Education of Puerto Rico supported ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the latest version of the software whose company has more than 21,000 employees worldwide ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What are the medal winnings for the only Chinese male short track speed skater to be shown participating across several disciplines during the 2002 Winter Olympics ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "Where is the shopping mall in India located that is owned by Bridgeway Holding ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "Who was the oldest player to win 3 times at the Lexus Cup ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "The home stadium of the Bray Wanderers of 2006 League of Ireland is situated behind what station ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "Which Boy Scouts of America council camp is located in a place who 's population is about 264 inhabitants ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the full name of the earliest WWA World Heavyweight Championship ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What is the name of a player transferred from a team who has won 32 domestic titles in its country to D.C. United in 2012 ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What degree did the former chairman of the Welsh political party Plaid Cymru , Jesus College , Oxford educated man , receive ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "Which stadium is the 19th largest in Spain and built in 1974 part of a club based in Alacant ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the sister company of the international broadcast network that aired the show Raising the Bar in December 2008 ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "Who played the antagonists in the telenovela in which Mexican singer and actress Daniela Romo played Mar\u00eda S\u00e1nchez Amaro in 1995 ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "Which bout that took place in 2016 does the Korean Music Awards musical artist who auditioned for various talent agencies during her middle school years participate ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "Who is the Syrian detainee with the notes location that was uninhabited until the 15th century ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "Which Malaysia Football League team plays in a stadium that holds 25,000 and is comprised of armed forces members ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the total length of the Croatian river whose name is derived from Proto-Indo-European *karr- , `` rock `` ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "Was year was the club in the 2011 Foxtel Cup nicknamed Tri- Colours formed ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the year of the person who was born on November 8 , 1939 and belongs to alumni of Military Institute in Virginia ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "When did the person in professional wrestling with connections through marriage to Bill Dundee make his debut ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "Which location is the SeatGeek Stadium , used in the 2012 Chicago Red Stars season , located in ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "When did the season begin where the Magic : The Gathering event type Luis Scott-Vargas participated in has been held annually since 1994 ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What family is the species of lungless Alabama salamander native to the Appalachian Region of the eastern United States part of ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What are the affiliations of the TV media channel in Florida that has high definition on digital channel 440 ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "When was the party , which participated in Brazilian state gubernatorial elections , represented by the incumbent born on October 29 , 1962 founded ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "When was the Indian Army regiment that has origins in the 18th century raised ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "Which Decathlon athlete , that is in the all-time top 25 decathletes for women , participated at a venue on the south bank of the River Thames ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "When was the theatre play in which Matthew Rhys portrayed Romeo after 2003 first published ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What is the capital of the Latin American country with 1.37 tons of CO2 emissions per capita ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "In what body of water is the oldest Chilean national park ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What award did the Guggenheim Fellows Professor at the NYU school of Medicine win in 1967 ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "When was the developer of the Aksys sequel to Bit Trip Runner founded ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the Group A\u2013B team competing in Liga EBA , whose city was called Flauvium Brigantium or Brigantium in Roman times ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What was the month of birth of the Austrian silver medalist in men 's downhill alpine skiing at the 1952 Winter Olympics ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the 2013 attendance at the park located in the town that is home to the Korean Folk Village ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the population of the town home to the Sligo Rovers A of the A Championship ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "Nick Wechsler played Justin Silver in a 2004 television series set in what hotel ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What was the position of the captain for the Malaysia Super League team whose coach was born in 1965 ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "How many square miles is the country that scored 302 points at the men 's 1970 International Cross Country Championships ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What group of people present the award named after Edgar Allan Poe ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What are the United States television stations available in Canada call letters of the Buffalo station with the lowest UHF digital channel number ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the Dutch name for the Brussels Metro station located under the small ring at Rue Royale/Koningsstraat in the municipality of the Saint-Josse-ten-Noode ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "Of the three best-selling albums with 10\u201314 million copies sold and released in 2000 , which one was also released on Interscope Records ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "Where does the Scottish river near Rabbit Hill rise ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "Who released the song recorded by Plan B that was written by Mike Leeson and Peter Vale ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "Who wrote contestant M\u00f3nica Guech 's song for La Voz ( Spanish season 1 episode 6 ) ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What is the deadly weapon of biological warfare in the film spoof in Mad movie satirized by Mish Mosh Is Possible , Too ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "Who was the director of the 1949 fishing sports movie featuring Roddy McDowall ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "How much in 2019 was given for research to the post-secondary school attended by Washington Redskins player Sean Taylor ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "Who owns the English football club with a 2019 revenue that is less than 439.2 and more than 394.9 million pounds ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "The 2012 Olympic champion in the men 's 85 kg weightlifting category was doping with what drug at the 2016 Rio de Janeiro Olympics ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "For the person who is a British pornographic actor who got into the business first , what month were they born ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What island received the most damage from the 2002-2003 Australian-region cyclone that was one of the most intense tropical cyclones on record ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "Which fictional member of the arthropod family Gryllidae could talk in the book which was published in 1883 ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "Which mountains border the city in China that is home to Wenchang Stadium ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What year was the city which contains men 's soccer 2013 Big East Conference Cacciatore Stadium established ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the kingdom where the mother of Ottoman sultan Selim II was born ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "Who was the director of the video-game based movie released on December 27 , 2011 ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "Which building designed by E. J. Lennox is located in an area formerly known as the Island of Hiawatha ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "Juan Carlos Henao and Jhon Vi\u00e1fara played for a 1948 Campeonato Profesional team in what city ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What sport did the Yugoslavian athlete who grew up in Cair participate in at the 1988 Summer Olympics ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "How many Tony awards has the person that co-hosted Live with Regis and Kelly Season 22 on April 16th , 2010 won ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "How many different zones of climate were in the nation which first manufactured the Self-propelled anti-tank gun ZiS-30 ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "In the comic book published by Fawcett Comics from 1940-1953 , who first appeared opposite superhero Captain Marvel in their debut ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "Who owns the affiliate station that airs Pittsburgh Penguins Radio Network at the highest frequency ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the largest island in the region of Spain known for Spanish dish palm syrup ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What was the middle name of the last Irish born recipient of the medal of honor ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "Who maintains the only office suites Collaborative Software shown as `` under development `` ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What hockey arena did the NHL team play their home games in that had a 10 season post-season drought between 2000 and 2011 ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the prominence of the Ultra of Antarctica peak that was named by the New Zealand Geological Survey Antarctic Expedition ( NZGSAE ) ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "Which airport is larger than the hub airport of the British Columbia airline owned by Shorebird Enterprises since late 2018 ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "The most recent battle fought by the Kingdom of Scotland in the Second War of Scottish Independence was against what country ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "Which of the Brazilian military bases in Rio de Janeiro is named after a beach ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What is the difference , in terms of Weeks spent at the # 1 spot , between the artist born Stefani Germanotta and the Norwegian artist ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the capacity of a 2012 A Lyga stadium that is located in city which Minija River flows through ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "When was the historic building in Oark of Johnson County , Arkansas built ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "How many countries who competed in the Women 's 2004 World Sports Acrobatics Championships scored less than the 46th largest country in the world ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "When did Faith FM media , in the Waterloo region start broadcasting ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What is the event in which Mauro Ranallo and Bill Goldberg did commentary on June 2 , 2007 ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "The 1970s comic book super villain Darkseid 's oldest son was created by who ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "How many people were interviewed for the 1969 Vietnam War film ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "Which Belgian Best International Feature Film submission was directed by a man born on 21 February 1957 ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "Who was coach of football at the university attended by Lonnie Marts , who was undrafted in the 1991 NFL Draft in 1990 ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "When was the third highest paid Rangers F.C . player born ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "How many Indian districts with G as initial are there in the state that holds Gokak ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "what is the 129th Ohio General Assembly district of the predecessor born August 5 , 1960 ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What player who got drafted by the Packers in '61 attended the first co-ed Catholic university in the world ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "In what year did the loose forward in the 2009 season for Catalans Dragons announce his retirement ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "In what year was the winner the French association football club that was founded in 1890 Amateur era ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "For the Dravidian language Chenchu , what location has the highest population ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the birth name of the singer of a song featured in the show Tatort known for her distinctively husky voice ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What drink is most commonly enjoyed with this cheese ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "Which undrafted QB at the 2007 NFL draft is oldest ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What was the 2010 population of the city in the San Pedro Pastoral Region that has an average annual rainfall of 12.55 inches ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "At what venue did Russian athlete Alexei Urmanov compete for the Gold medal during the 1994 Winter Olympics ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "How many terms has the current member of the Uttarakhand Legislative Assembly held in the constituency that includes the Dehradun District ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the English title of the 2010 Brazilian movie release directed by Sergio Bianchi ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What state do the events of the 2007 movie in which Penn Badgley played Van occur in ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What is the population of the city Vilanova i la Geltr\u00fa which is represented by a OK Liga Femenina team ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What country is located northwest of this nation that the football club whose jerseys have 2 stars , KF Tirana is based in ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the population of the home country of the 2nd ranked pommel horse athlete at the 2006 Commonwealth games ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the rank in highest-grossing Bengali Indian films of the film that features Jeet , Subhasree Ganguly and Nusraat Faria in the leading roles ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "Who signed the first defender to have won the Moldovan Footballer of the Year award ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What nationality is the player who played for the team owned by Jaypee Group during 2013 Hockey India League players ' auction ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the Philadelphia Phillies team single-game batting statistic of the year in which Bret Saberhagen was named MVP of the Series ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "When is the China building whose design of the building was inspired by bamboo , though to be completed ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What was the record of Oklahoma in 2012 ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "When did this Third Reich German colonels general head this staff group formally established by law in 1814 ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What was the nationality of the creator of the earliest public artwork in the borough of Greenwich ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What bus transit system is located in the county seat of Jefferson County , Texas , USA ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "A professional footballer from Episode 4 of All Star Mr and Mrs was paid how much to move to Tottenham in 2005 ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What BBC UK regional TV on satellite channel is the programme presented on alternating nights by Mary Rhodes or Nick Own on ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "Who was the director of the 2006 Asian historical drama film set in 375-369 BC ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "How many colleges in Iowa are part of the university of Antonio R. Damasio ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the area of recognition of the inductee to Canada 's Walk of Fame born March 27 , 1962 ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is a frequent summer climate of the nation that was second place at the 1986 world biathlon season Women 's Relay ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the name of the route in Wayne County , New York with the from location that extends for 99.99 miles ( 160.92 km ) ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What position did the 1990 All-American baseball player from the team known as the Dirtbags play ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What is the ICAO of the airport in the Greater Houston Area that is owned by Jag Gill and managed by Roger Schmidt ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What party did the Jersey City , NJ mayor who was succeeded by Phineas C. Dummer represent ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What economic activities is the city home to Nevada 's Truckee Meadows Community College noted for ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "Which of the women 's wheelchair Marathon winners in Boston with a first name beginning with 'S ' comes from the 8th most extensive US state ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "Who was the town named for where the hillside monogram ' C ' can be found ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "In what year was the Amateur Era winner the French football club that plays its home matches at the Stade Oc\u00e9ane ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "For the location named after native forest , what else is its association football stadium used for ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What state in Mexico borders the state to the west where the Group 1 team called UACH is based ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What was the first appearance for the black superhero played by Edi Gathegi ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What is the birth date of the 2011 head coach for Assyriska FF of the Swedish Superettan ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "Who is the younger member on Swedish canoeing team at the 2000 Summer Olympics ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the album of the Back on the Road Tour song that was re-recorded in 2007 for Guitar Hero ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What is the age of the player who competed in the 2009 Universitario de Deportes and was born 28 October 1973 ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What year of the common era was the earliest university of the city in which Florestano Benedetti finished the marathon in 2:47:29.8 founded ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "Who was original host of the ViacomCBS television program broadcast on NBC from 1963-1969 ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "The oldest Ellendale site that is a historic place in North Dakota was built with elements of which architecture ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What as the end of recognition of the championship whose last recognized Mexican professional wrestling champion was born September 18 , 1960 ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the most populous city in the country from which this singer , who is accompanied by top-charting band The Hooligans , is from ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "How many islands are part of the homeland of 1995 Men 's World Half Marathon competitor Klaus-Peter Hansen ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "Who drafted the Soccer player in 2000 from Pittsgrove Township ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "How many alumni of the university that employed the three time Big East Conference football individual award winner Dennis Erickson have received Heisman trophies ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "When did the original line of the car start that was used in 24 Hours of Le Mans in 1930 ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "When did the company that built the first sub launched in December 1944 shut down ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What three professional programs does the university based in Des Moines , Iowa the competes in the 1982 NCAA Div I Bball Tournament offer ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "Who is the athlete of the Asian Games games that were held in Seoul , South Korea ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "How many actors start in the 2012 film title that featured Laura Prepon ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "Nick Wechsler played Kevin Sanders in a 1997 television series distributed by what company ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What is the capital of the country in the Arab League with the third highest GDP ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "How many episodes were in the television series in which Keke Palmer plays Arletta Marion ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What two people wrote the comic book series with the Gotham City Police Dept . character Jackson Sarge Davies ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "Who many inhabit the nation which first fielded a winner of Wimbledon women 's singles championship title in 1963 ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "Which date did the gold medalist in women 's super G alpine skiing at the 1988 Winter Olympics race at Lech ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the birth name of the most recent person to have won the Star Award for Best Supporting Actor ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "Which 2005 television title featuring Nancy Castiglione had a crossover film made with Mulawin ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What is the capacity of the Super Rugby stadium whose city is located on the shore of Table Bay ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "Where is Christmas dinner in the movie in which Jonathan Taylor Thomas played Jake Wilkinson after 1997 ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "The composer born in 1871 in western Ukraine was a member of a scientific society in what year ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "How many times has the jockey of Eight Belles Stakes winner Roxelana ridden in the Kentucky Derby ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "The Serbian bronze medalist at the Individual 3.6 km in 1998 Ferrara was born on April 21 in what year ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "When was the Lakers player selected in the 1961 NBA expansion draft born ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the type of nebula for the item in the 1958 version of the Sharpless astronomical catalog numbered between 5 and 7 ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "Where was the French bronze winning discus thrower at the '32 Summer Olympics born ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "Where is the main character of the second-highest grossing film of 1994 from ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What nationality was the winner of the 1945 award of the Victoria Cross ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "Where is the venue outside Bristol of the Queensland club that won the Bathurst 12 Hour located ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "Where is the nationality of the 2012 IAAF World Half Marathon Championships athlete who competes in road running and cross country running competitions located ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "In what state did the BC Lions athlete who was the 34th pick in the draft attend school ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "Who made the file archiver app that has built-in FTP , SMB , AFP , SSH , and sFTP ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What is the French Open open era for the country that has the fourth most amount of languages in the world ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the middle name of the film-maker and author of The Life and Times of Grizzly Adams ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What date was the papal bishop-elect of Meaux in the 1170s elevated ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the league match capacity of the sponsored German stadium with a traditional name of Waldstadion in Frankfurt ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the official name of the country represented by the competitor who came in fourth place in the elite race at the 2011 London Marathon ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "Which bridge in Seattle has a superstructure and substructure that are rigidly connected to act as a continuous unit ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the Canadian city for the building that commemorates the life of Saskatchewan 's first minister of agriculture and federal minister of agriculture ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What position does a player who was in the touring party to Australia , born August 24th and is also based in the city of Dunedin ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the name of the Polish athlete at the 2010 Summer Youth Olympics whose event has only one bronze medal awarded ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "In 2010 , how many people lived in the town where the California Historical Landmark Fort Miller is located ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What event in December 2015 was won by a team who current coach is Carlos Retegui ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the name of the youngest head coach related to Pat Summitt 's career ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the sport ( s ) of the school that was founded in 1950 and realigned to NCAA Division I conference in 2018-19 season ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What author wrote the book that inspired the LGBT-related film directed by Bernardo Bertolucci ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "Who was the writer of the 2009 roller-skating comedy-drama sport film featuring Ellen Page ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "Where was this politician , who represented the electoral division in the 17th Manitoba Legislature created by redistribution in 1903 , educated ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "How much did the person who is a University of South Carolina alumnus lettering in the years of 1970-1972 weigh ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "How far is the village in central Alberta south east of Red Deer , the destination of UAR 55 from Stettler ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the maximum number of players for the Atari arcade game with initial S that uses polygonal graphics for the vehicles and track ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "The Christmas television special The Kongo Bongo Festival of Lights aired in 1999 on TV Tokyo belonged to a series based on a franchise of what company ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "Who originally performed the song on the 2012 National Recording Registry by Chubby Checker ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "On what date was the retired Greek footballer who was born 13 May 1975 appointed a UAE Pro League manager ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the origin of the Jewish dish that is a spicy paste made of grated horseradish ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "Which Concordat treaty happened in the country whos capital is Vienna ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What kind of volcano is the one whose eruption caused the Russian famine of 1601-1603 ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What is the name of the Military base whose location has natural resources such as iron , manganese , limestone , sand and clay ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "Which school did the Big Ten Conference Men 's Basketball Player of the Year winner born on January 3 , 1969 play for ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "The Uganda district that is not named after its chief town was created in what year ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "In what month was the highest-scoring Individual Ribbon competitor at the 2011 Asian Rhythmic Gymnastics Championships from Kazakhstan born ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What was the 2010 population of the town whose only listed Historic Site in Muskegon County is a trading post ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What position does Latvia 's Ivan Tabanov now serve on the team in the higher league of Latvia that obtained a championship in 2012 ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What are the inhabitants of this venue 's commune , which held the 1924 Summer Olympics sporting events swept by Sweden , referred to as ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "The 2002 movie edited by Gary D. Roach was based on a novel written by who ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "On which network was DreamWorks Television series with six two-hours episodes broadcasted ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "When did the team with the 41st pick in round four in the 2002 MLS SuperDraft win their first major trophy ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "In which Olympic games did the athlete who won five medals at the FIL World Luge Championships , including three golds , win a gold medal in doubles luge ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "Of the authors of songs covered and recorded by Rufus Wainwright , between Henry Creamer and Leonard Cohen what is the lifespan of the one born earlier ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the scientific name of the monkey species that was classified by the person who was born on 23 October 1800 ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the built period of the Presbyterian church in the United Kingdom that was restored by Rowand Anderson from 1889-93 ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What did Dick Van Dyke win an award for excellence in live Broadway theatre for ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What is the mascot of the most recent Mountain West baseball Conference champion ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "The 2007 film that Sara Niemietz worked on was shot in what country ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "On what date was the German diary writer who was a Nazi victim born ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "The last Capcom Virtual Console game for Nintendo 3DS in Japan , is a follow up to what game ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What percentage was the passenger increase in 2017 for the Bergen Airport with airlines servicing 213,300 passengers ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the present status of the English train station that was designed in the LB & SCR 's 'Country House ' design ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What was the setting of the 2009 film starring Gabriel Macht that had the character of Robert Pryce ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What is the longest operating Great Coasters International roller coaster found in the same theme park as the Wodan Timbur Coaster ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What role did Frances de la Tour play in a film based on the novel Household Ghosts ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What is the industry of the Jacksonville company that was founded in 2019 ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "Who composed the score of 1985 sport film about sailing featuring John Candy ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What is the relation to New York University of the lawyer born on August 1 , 1956 ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the 2010 populace of # 84002045 's area in Georgetown County , South Carolina ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "For the Dyrosauridae genus whose fossils have been found in Landana , what kind of teeth did it have ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What was the North American title of the 2009 movie in which Gemma Arterton played Desiree ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "When did the Finlands men 's 50 km medalist at the 1964 Winter Olympics die ?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "For how many NFL teams did the player drafted by Minnesota Vikings in '92 from the college to produce 3 Heisman Trophy winners play ?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "This Miami-Dade County Metrorail station opened in 1984 is two minutes from downtown and sees just over 200 passengers daily ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "In Old Norse times , what was the region called that used to have the largest harbor in Norway ?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "where is the euro 2012 tournament?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "what 6 states border south dakota?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what language do the assyrians speak?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what is the capital city of albania?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what type of art is henri matisse famous for?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what disease has jack osbourne got?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "what county is morristown tn in?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "what year was the cubs last world series?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who does christopher walken play in batman returns?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what language do the people in ghana speak?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what did ben hall do?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what was wrong with joan crawford?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "where did matt barnes play?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what type of government does fiji have?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what is the name of the pittsburgh steelers head coach?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what happened at fukushima daiichi nuclear plant?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where was the earthquake in christchurch?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what country is located in the balkan peninsula?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what team does sergio aguero play for?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "what team does drogba play for 2013?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where do the fla marlins play?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "who became president after harding died?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "where did bob barker grow up?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what country surrounds spain?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "who is playing bilbo in the hobbit movie?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who played anakin skywalker in phantom menace?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what language they speak in the philippines?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what does canada export and import the most?",
+      "gold": "kg",
+      "pred": "table"
+    },
+    {
+      "question": "what do ethnic russians look like?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what is st james palace?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who is tia and tamera mowry parents?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "who does david james play for 2011?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "where can you buy amazon kindle?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what teams played in the 2010 stanley cup?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what is bethenny frankel husband name?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "what city and state was the air force academy established?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what year did william jennings bryan run for president?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what group is aubrey o'day in?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what type of music is tchaikovsky?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where did lebron james go to highschool?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what to see near sedona arizona?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "when did aldi originate?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who plays the voice of kovu?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "when was george w bush sworn in?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what team does lamar odom play for 2011?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what county is minneapolis mn in?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "what professional baseball team did michael jordan play for?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what has anna kendrick been in?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what did robert koch do?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what music did beethoven composed?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who did michael jordan marry?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what does jackson browne sing?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where do the ny rangers play?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what language do people speak in costa rica?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what do tibetan people speak?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what team does reggie bush play for 2011?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "who was elected president of the philippines?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who was donald duck's girlfriend?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what is the rainforest in peru called?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what was tupac name in juice?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "when did hurricane irene hit ct?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what is the northeast of the united states?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "what drug did mitch hedberg overdose on?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what films has kristen stewart starred in?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "where did james baldwin go to school?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what channel is the mtv vma awards on?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who plays tommy oliver in power rangers?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what government system does north korea have?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what type of government system does saudi arabia have?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what language chile speak?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who did paul jr marry?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "who was marilyn monroe's parents?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "what does albania speak?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what else did eli whitney invent?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what is the local language of israel?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "when did the red sox win the pennant?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where does the oklahoma city thunder practice?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "where was benjamin franklin raised?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where was anne hathaway born?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "what college did lil wayne graduated from?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what is saint nicholas known for?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who did adam sandler married?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what was the name of tecumseh brother?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "where did the houston oilers football team go?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "when was the last superbowl win for the steelers?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "where was gabriel faure born?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "what are all the things thomas edison invented?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what music did antonio vivaldi compose?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who plays steffy on bold and the beautiful?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where tupac grew up?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what films did charlie chaplin direct?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "who is sherri shepherd's new husband?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "where is fiat abarth made?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what language people speak in afghanistan?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where are google headquarters located?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what are buddhist gods?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where did the casey anthony case take place?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what are eu countries?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what kind of money do you use in costa rica?",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "where did the tutsi come from?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "where is luke bryan from?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "who won american idol 2006 season 5?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what are american staffordshire terriers?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what religion are people in russia?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what teams did george steinbrenner own?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where was the roman empire centered?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who founded collegehumor?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what state was texaco gas founded?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "who did george wendt play on cheers?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who played princess leia's mother in star wars?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "who played lois en superman?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "who all was richard burton married to?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "who was the governor of missouri in 1996?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "what films did hans zimmer wrote music for?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where are the netherlands on a world map?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what kind of government is china?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "who plays sam in anger management?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what is the language they speak in jamaica?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what movies has scarlett johansson played in?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "where does mike leach coach?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where did elvis presley started his career?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what did douglas engelbart invent?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what team did doug williams play for?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what are bridgit mendler's parents names?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what is the philadelphia church of god?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what to do with kids in phx az?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what did martin luther king jr go to college for?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "where did the welsh language originate from?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where is universal studios california theme park?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what time is world cup soccer?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who is the leader of cuba 2012?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "who plays marvin eriksen?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what middle school did barack obama attend?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "who was emperor diocletian?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what county is heathrow airport in?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "who is jeff probst ex wife?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "which states does the mississippi river pass through?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what language do you speak in austria?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "where did pavlova originate?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what did ryan dunn died from?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where did bashar al assad study?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "who did kat graham play in parent trap?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "where was ancient carthage located?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who was neptune discovered by?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what is james madison most famous for?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where to visit near bangkok?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what year did the mets win their first world series?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what high school did president bill clinton attend?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what is brazil time zone?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "who is raquel welch's daughter?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "when does the world cup occur?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what has ian somerhalder played in?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what school did joan miro attend?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "who was vice president under ronald reagan?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who is golfer dustin johnson dating?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "on which continent is the usa located?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what to do washington dc december?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what kind of money to take to bahamas?",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "what does pixar produce?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where did michael jordan play high school basketball?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what country is the mekong river located in?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what year did pete rose play?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who made the american red cross?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who does larry david play in seinfeld?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what country does turkey trade with?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "where does niles crane live?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "who is the new governor of florida 2011?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "who are the current senators from missouri?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "what three countries does mexico border?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what are fun things to do in seattle wa?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what position does rafael furcal play?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what teams drafted the morris twins?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "who does kris humphries play for in the nba?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what is paige halliwell's powers?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "who is the leader of japan?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what states does the missouri river touch?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what currency does thailand accept?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what is the religion of israel people?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what to do in roatan bay?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what season did jason priestley leave 90210?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what county is charlotte north carolina?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "who does lea michele dating in real life?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "who played maxie jones on general hospital?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "who did rufus wainwright married?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "who is my state senator and representative minnesota?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "where was greenpeace an international environmental organization founded?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "what religions are found in australia?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who does jemaine clement play in despicable me?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "with which countries does south africa trade?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what is pennsylvania's state flower called?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "who won the nobel peace prize in 2007?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who is hugh hefner dating now in 2012?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what position did george washington serve in the constitutional convention?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who is the arizona cardinals football coach?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where does the uk import from?",
+      "gold": "kg",
+      "pred": "table"
+    },
+    {
+      "question": "where was emperor hadrian born?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "what language is spoken in singapore?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what team is chris paul on?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what was malcolm x trying to accomplish?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "which legend of zelda game is the first?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what books did beverly cleary right?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "what did edward jenner do for a living?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what date was abraham lincoln inaugurated?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what was eli whitney education?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "who did elton john marry first?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who won 2011 heisman trophy?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what is the government structure of germany?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which years did Cash and cash equivalents and restricted cash exceed $100,000?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the change in operating revenues from 2017 to 2018?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the percentage change in the Weighted average share price (pence)?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What are the interest expense comprised of?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the increase/ (decrease) in Global Technology Services external revenue from 2017 to 2018",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the change in the salary of Gavin Darby from 2017/18 to 2018/19?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What are the years that information regarding Research and development is provided?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "Where does the company file income tax returns?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "Why did revenue increase on Office 365 Commercial in 2019 from 2018?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the total weight of Nordic Freedom and Nordic Moon?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What does the income tax expense in the third quarter of 2019, reflect?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the change in Weighted-average shares used in computing basic net income per share from Fiscal Year Ended December 28, 2019 to December 29, 2018?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the change in the Risk-free interest rate from 2018 to 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the Cost of SaaS and license revenue in 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "When did the Company ceased the usage of peer group volatility?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "How many post-employment benefit plans are there?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the increase / (decrease) in the external gross profit from 2017 to 2018?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "In which year was the total amount of property, plant and equipment larger?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the average Selling, general and administrative expenses for the period December 31, 2019 and September 29, 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What caused the Systems Hardware revenue to decline?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "How much of earnings does the Noncontrolling interests account for in FY2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the total amortized cost of money market funds?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "How was diluted EPS calculated?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What did the Senior Notes consists of?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the total increases related to tax positions taken during current year in 2018 and 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What do the adjusted IFRS balances reflect?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What does the cost of revenues include?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "In which year was the amount of Total non-current trade and other payables larger?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "In which years was the Charge for taxation on profit for the year recorded?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What are the respective additions for tax positions related to the prior year in 2018 and 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the reason for the disposals in 2018?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the percentage change in the Operating income between the third and fourth quarter?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What do the Options exercised prior to the vesting date relate to?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What are the respective sales in the fiscal years ended September 2018 and 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is recognized as comprehensive income (loss)?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the gross carrying amount in the 2021 Notes?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the approximate weighted average warranty period covered?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the change in the Weighted-Average Grant-Date Fair Value for nonvested shares in 2019 from 2018?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the average Allowance for credit losses of Lease receivables at the beginning of January 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the percentage change in stock based compensation on sales and marketing between 2018 and 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "How does the reserve for future sales returns being recorded?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "In which year was the amortization of Day 1 gain lower?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "How much did Net cash provided by operating activities decreased from fiscal 2018 to 2017?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the Accrued compensation and employee benefits in 2018?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is meant by Domestic?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "Between 2018 and 2019, which year had a greater amount of acquisitions during the year?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the share of earnings from equity investments accounted for under the equity method reflected as?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What are the respective vessel operating expenses in 2018 and 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the sum of service costs in 2017, 2018 and 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the total food waste for FY18?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "How many ordinary shares of Singtel was the Group Chief Executive Officer awarded in 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What were customer deposits resulting from transactions with Dell in 2020?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the increase / (decrease) in the Sales/other transfers of intellectual property from 2018 to 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was unearned software maintenance revenue attributable to?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What did revenues for Corporate and Other represent?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the aggregate purchase price classified as?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the increase/ (decrease) in Consolidated LNG carriers from 2020 to 2021?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the Senior secured term loan in 2019 and 2018 respectively?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "How was internally developed software capitalised?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "Which years does the company provide information for components of the company's deferred revenue and financed unearned services balance?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the average basic EPS for the 2 FYs?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the product revenue from Americas in 2017?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What did the total assets in each property segment include?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the net income(loss) in 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the proportion of exercisable options over outstanding options for the year ended in December 31, 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "How much is the 2019 subsidies and tax rebates?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the percentage change in the net deferred tax liabilities from 2018 to 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the total revenue and assets as of June 30, 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the expense (benefit) for current International component?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "In which year was Expiration of statutes of limitation less than 0?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the amount and percent of beneficial ownership owned by Garo H. Armen? ",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "How many years did deferred revenues exceed $10 million?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the impact of tax ruling on taxes?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the company's average revenue performance goal in the first two quarters of 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What did the unaudited pro forma results for all periods presented include?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What do the five-year cash flow projections derived from business plans reflect?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What are the respective revenue from perpetual license in 2016 and 2017?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What does launch expense represent?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the total percentage change in the Net periodic benefit cost between 2017 and 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "How many years did cost of sales exceed $800,000 thousand?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What led to the decrease in interest expense?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the net sales from Fresh, chill-packed chicken for fiscal years 2019 to 2017 respectively?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What are the respective selling, general and administrative expenses from operations in 2018 and 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the amount of Interest income in 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the change in Term loans - principal payments from Fiscal Year 2021 to 2020?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the amount of investments into Novasentis in 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the change in the carrying amount as of 31 December from 2018 to 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the balance at the end of period in 2018?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the approximate dollar value of shares that may be purchased under the plans or program in December 2018?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "In which year was the weighted average shares larger?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What does the hazardous waste produced by the Group's data centres mainly include?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What is the average protected period?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the average Term loan for 2018 and 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the average net income attributable to parent company?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the average age of the company's President and Chief Financial Officer?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "How much is the 2019 bonds and other liabilities, excluding the interest on foreign exchange derivatives?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "How much is the cost of merchant solutions revenue for both financial year ends (in chronological order)?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the average tax loss and credit carry forward for 2018 and 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "How many years did Sales and Marketing as a percentage of net revenues exceed 20%?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "How much less operating lease obligations than purchase obligations does the company have due in less than 1 year?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "The Securities and Exchange Commission issued guidance in SAB 118 provided what form of clarification?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the balance at the end of period in 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the change in the net carrying amount between the 2026 and 2027 Notes in 2018?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the research and development expense in 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the high and low value for ZIXI for the quarter ended March 31 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the accumulated other comprehensive income at the beginning of 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is Trek's ownership interest in its U.S. subsidiary?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the target Non-GAAP Revenue?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What are the values for FY18 restated for?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the average net revenues from Automotive and Discrete Group (ADG) for the period December 31, 2019 and 2018?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the gain on extinguishment of debt recognized in June 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "In which period was Computers and other equipment less than 250 million?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "Where is the Global headquarters located?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What was the percentage change in total fees from 2018 to 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "For service-based Restricted Stock Awards, when do the restrictions generally lapse?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the percentage change in the cash at bank?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the final decision from the Brazilian court received by Cryovac Brasil Ltda., a Sealed Air subsidiary and the consequence?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the value of the company's total gross proceeds as of December 31, 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What does ship management client accounts represent?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the average U.S. income from continuing operations before income taxes for 2018 and 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the average granted from 2018 to 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the average number of shares withheld for taxes per month?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the total Transportation Solutions sales in 2018?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What does Net revenues from \u201cMobile and ancillary\u201d include?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the average cost of revenue?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What will the results of the company's inverter business reflect as in their Consolidated Statements of Operations?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the amount of restricted cash in 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the year-on-year change in GDP in Asia in 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the value of Rights and licences in 2019 and 2018 respectively?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the public accounting firm that the company engages?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the ASMPT Board responsible for? ",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "What is the total amount of long-lived asset in Japan in both 2018 and 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the total amount of expense for share-based payment in 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the amount spent on cash and cash equivalents in 2019 and 2018 respectively?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the capacity per week for the plants at Laurel, Mississippi and Hammond, Louisiana respectively?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What does Long-lived assets include?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the percentage of options granted during the year ended December 2018 as a percentage of the number of nonvested options remaining as at 31 December 2018?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What was the total long-term debt?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the percentage change in the average price between March 31, 2018 and 2019?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What are Original Equipment Manufacturers?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "In which year has a higher financial income?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the total price of exercised and expired stocks?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the company's ownership of GTE Mobilnet of Texas RSA#17?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "How much was the weighted average fair value per share of options granted during the year ended 31 December 2019 in RMB?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "How much was the inventory write-downs at December 31, 2019 and 2018 respectively?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the number of potentially dilutive stock options as a percentage of the total Weighted-average common shares, diluted in 2018?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "How does the company sort its sales by?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "As of March 30, 2018, what is the  Tax credit carryforwards?",
+      "gold": "table",
+      "pred": "table"
+    },
+    {
+      "question": "What is the government of the country that contains the Magallanes y la Ant\u00c3\u00a1rtica Chilena Region?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Who was the insipiration of the speaker of the 70th anniversary of D-Day and the Battle of Normandy?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "Which city is home to the University that is known for Purdue Boilermakers men's basketball?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "The country which uses the Philippine Peso has what form of government?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the religion of the people where Benjamin Netanyahu is in a government position?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Which actor who portrayed Alan Parrish in Jumanji was born in New York City?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "The person who attended the Noelani Elementary School education institution was born where?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What Australian state and territory contains the city/town Canberra?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Who was the illustrator of \"In His Own Write\" shot by?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What discoveries were made by the person who once lived in Frombork?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What government type is used in Bimini's country?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What do the people whose religions figure is Muhammad in Islam follow?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Which country near Egypt was \"Zola Levitt Presents\" filmed in?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "Which nation that has Christ Church Parish located in it is the place where Rihanna hails from?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What form of government based on the ideology of Fascism did Benito Mussolini use?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "In which county is the Chesapeake Bay Bridge located, and its population is 18,533?",
+      "gold": "kg",
+      "pred": "table"
+    },
+    {
+      "question": "Which geographic region is where the Western Roman Empire was located and which contains the city/town of Lyon?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "Who are the children of the recording artist for \"Whatzupwitu?\"?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the government type of the place where the Cubalaya breed originated?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "With which record label did the artist of My December Tour sign with?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What religion has Sefer Yetzirah as text and is followed by George Soros?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Which artist that recorded \"Happy Birthday, Mr. President, died first?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Where do the Flemish live that has the capital called Brussels?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Where can one stay at Tour Triangle location?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What had its production designed by Tony Fanning and features Ashley Greene?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "Who provides the voice of Anakin in the movie that features a character named Ahsoka Tano?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Where is William Lauder a religious leader the place where the Seneca Indians lived?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What Mountain Time Zone locatino has fun things to do in Denver, Colorado?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What attraction in Nashville contains the Percy Warner Park Steeplechase Course?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What is the most popular religion of the place where Goldstar beer is made?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What country that was involved in the Gulf War and has Basra Governorate?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Which type of currency is utilized, at the location, where Guangzhou Zhu Jiang Brewery Co.Ltd. Zhu Jiang Beer, is produced?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "Which Jane Austen books are films, and that the cinematography was by Roman Osin?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What currency is used in the country where Akbash dog originated in?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What sports team owned by Bernie Ecclestone has Peter Crouch played for ?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What was the cause of death that killed the artist who recorded \"something in common\"?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "In what film featuring a character named Ace did Regina Hall act?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What type of money does the country where El Seibo Province is use?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "Of what did the lyracist for \"Someone Put Your Hand Out\" die?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the time zone in the place that has official symbol of Nene?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What country in Latin America contains the Gon\u00c3\u00a2ve Island?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "Who was the person dating who went to education institution Cross Timbers Middle School?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What movie that Robert Rodriguez was production designer for starred Selena Gomez?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What languages are used by individuals in the region where a governmental post is occupied by Vaclav Klaus?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "In what county is the circulation are of the newspaper Duluth News Tribune?",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "What work did the architect who designed Pearl Street Station do to contribute to the greater good?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What language spoken in Australia has the intitials JBO?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What type of governmental system is used in the Bahamas and in the country where Emanuel Lasker was born?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Where did the illustrator of \"De Divina Proportione\" die?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What country trades with Mexico and was ruled by Philip IV of Spain?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What regional countries are located in the country that has a second level government Almere?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "In which city located in Beaver County did Joe Namath live?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the political system where Buenos Aires is located?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "Where does the river that flows through Songo, Mozambique start?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Which locations include the affected area of the cyclone, Hurricane Daisy?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "Which political system does the country utilize, that has the  National anthem of South Africa?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the country that uses the Burmese kyat as its currency and is also the place of origin of Burmese cats?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What language is spoken in the place where the Chausie breed originated in?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What region in Argentina that has the sacred site Safed?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "WHat television program has a \"tvrage_id\" greater than 3451 and featured Kellie Martin?",
+      "gold": "kg",
+      "pred": "table"
+    },
+    {
+      "question": "What kind of government is practiced in Japan in the birthplace of Baldur von Schirach?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Who founded the Federal Reserve Board and held his position in the government beginning 1929-01-01?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "Which languages are spoken in the country whose national anthem is Swiss Psalm?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Which province is the location, at which the newspaper, Gauntlet is circulated in Canada?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "When was the first trophy won by the organization led by Ed Woodward?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "In what movie including the character Irv's Sheik Plant has Jennifer Lawrence played?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What educational institution that has a football sports team named UMass Minutemen did Jeff Corwin go to?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "Which countries have a calling code that is lower than 267 and also share a border which South Africa.?",
+      "gold": "kg",
+      "pred": "table"
+    },
+    {
+      "question": "Where was the currency used the Southern States Confederate Currency and the place where the Battle of Gettysburg was fought?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What religion in Australia has a sacred site named Kishinagar?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "If the placed where Laura Ingalls lived, which has the largest GNIS featured ID?",
+      "gold": "kg",
+      "pred": "table"
+    },
+    {
+      "question": "What language is spoken in the Republic of Kosovo by Ukrainian people?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What movie featured Matt Bomer and included a character called Uncle Charlie Hewitt?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "Who married the artist who's been nominated for awards for \"Rufus Does Judy at Carnegie Hall\"?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "Which war during the presidency of George Wahsington had the smallest force size?",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "Who's the academic adviser of the William Whiston theory?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What languages are officially spoken in the organization that includes a leadership role called President of the European Parliament?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Where are some places to stay at in the city where Gavin Newson is a government officer?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What college with more than 7714 postgraduates did Wilfred Owen attend?",
+      "gold": "kg",
+      "pred": "table"
+    },
+    {
+      "question": "What religion with a sacred site of Kushinagar is in Thailand?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the name of the country with the capital city of Gda\u00c5\u0084sk, which borders the baltic sea?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "Which sports are played in the nation where Agusan del Sur can be found?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What educational institution has a men's basketball sports team Cal State Northridge Matadors did Florence Griffith Joyner attend?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "Who plays Harley Quinn and also produced the movie \"Bhutto\"?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What country that Queen Victoria ruled that appointed George IV of the UK to a government position?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What movies that Charlie Hunnam were in are in Italian?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What years did the Superbowl XI champions win the Superbowl?",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "What is one thing you can do if you are spending a day in Bangkok and located in Thailand Time Zone?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "With the smallest location GNIS feature ID, where does Jeb Bush live?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "The person who once lived in Downe, Kent wrote what on book on evolution?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What film with character named Ajla is Angelina Jolie directing?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What language is spoken in the location of \"The Motorcycle Diaries\"?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "The religious organization Progressive Dawoodi Bohra has what basic religious beliefs.?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What country has the german speaking capital city of East Berlin?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the currency that is accepted in the country where the money used is the Bahamian dollar?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Which country are China 's trading partners, that also has compatible power plugs, Power plug Type C?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "Who's the new governor of the location, that appointed Rick Scott to a governmental position in 2011?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "The country that contains Bac Lieu Province has what current government?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Pyongyan is the capital of the country with what political leader?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Which characters does Seth MacFarlane play in the program, that has the multi episodes, Stewie Kills Lois, and Lois Kills Stewie?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What language is spoken where Nova Roma is used?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "The nation with National Anthem of Colombia as its national anthem is located in which geographic regions?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Which Michael Jackson movie is named for a Wizard of Oz character?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What is the birthplace of the person that said \"Nothing pains some people more than having to think.\"?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "In what film with character named Heavy Duty doe Leo Howard play in?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "Who's the president of the country that includes the location of Pernambuco?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What genre of music does John Mayer play in the film \"Celine Dion: The Colour of My Love Concert?\"?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "Micky Arison's sports team last won the championship in what year?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Who were Vice-President for Nixon that held his government position from 1965?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "When did the organization who Tom Werner is a member of win the champion league?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "Which language is spoken in the country that includes, the Ardabil Province?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "Which film did Robert Pattinson appear in that also has Grawp as a character?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What film with character named Jane has Ashley Greene been in?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What part of South American is made up of the Argentina Time Zone?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What Russian religion has a place of worship named B\u00c3\u00bcy\u00c3\u00bck Selimiye Mosque?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What countries using the Swiss Franc currency are in Western Europe?",
+      "gold": "kg",
+      "pred": "table"
+    },
+    {
+      "question": "What currency does the country with Trelawny Parish use?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What educational institution with a mascot named Hawk did Harper Lee attend?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What famous item was invented by the politician who stated, \"Eat to please thyself, but dress to please others?\"?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "When did the sports team whose mascot is Mrs. Met most recently win the World Series?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "Which person notable with the medical condition Intellectual disability is of John F. Kennedy's family?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Where does the body of water located under Chirundu Bridge end?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What English speaking country that was involved in the Battle of Talavera?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What is the currency used by the Superior Court of Justice?",
+      "gold": "kg",
+      "pred": "table"
+    },
+    {
+      "question": "Where was the politician that was in the Undersecretary position born?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What is Charlotte, North Carolina known for, and is the museum that was established after 1981?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What film with character named Lance Leigh does Matt Dallas play in?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What type of government is used in both Abkhazia and Spain?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What winner of the Puerto Rican governor election held position from after January 2, 2009?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "Which of the 4 countries that constitute the United Kingdom has Belfast as capital city?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Which disease did the person William Howard Taft dedicated his/her work have?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "Which team owned by Malcolm Glazer has Tim Howard playing for it?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the name of the newspaper where Anchor Steam beer is brewed?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What school that educated Jack London has an NCES school ID of 062805004304?",
+      "gold": "kg",
+      "pred": "table"
+    },
+    {
+      "question": "Concord is the capital of which US State in the North East?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which person who influenced Michael Jackson died most recently?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "Who was the Vice President of the man about whom \"Gore Vidal's Lincoln\" was written?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What genre of music appearing in the movie Shadow of the Stars was composed by Franz Liszt?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What is the name of the language where The National Anthem of Russia is used?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What bad political system did the Reich Governor use?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which river is the location, where the publisher of the book, The Four Fundamental Concepts of Psychoanalysis, was born?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the burial place of the famous person who went to Edward Devotion school?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What film starring Mario Lopez has a character named A.C. Slater?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What large city is in the Central European Time Zone and has Arabic as a primary language?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What countries in the Central European Time Zone share a border with Greece?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What province with 7 letters is in the location where the film \"Shoot 'Em Up\" was filmed?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What language is spoken where the capital city is Brussels?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What are the religions in the location in Heard and McDonald Islands Time Zone?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What countries border the place where the newspaper \"Akhbar el-Yom\" circulated?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "In what world series did the Orioles beat the Reds for the honor of playing?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What are three bordering countries of the country that has Michoac\u00c3\u00a1n?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "Who inspired the architect who designed Laurentian Library?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "In what year did the basketball team whose head coach is Kevin McHale win their first championship game?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "Which man coached the football team that emerged victorious in the 2009 AFC Championship Game?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What movie with a character named Dancer was Nick Cannon in?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What country bordering Lake Victoria has a capital called Nairobi?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the last movie that the famous person who went to Tollcross Primary School was in?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "Who is the coach of Vancouver Canucks who started his pro athlete career the earliest?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "Which nation with Lejre Municipality is the place where Turkish people have their origins?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What subjects did the person about whom the movie \"King: A Filmed Record... Montgomery to Memphis\" was made study at university?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What illnesses can person with notable malaria condition suffer from?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Who is the husband of the artist who had a tour named A Different Me?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "Who did David Villa play for who owns the New York Yankees?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What war was George Washington associated with that had the force size greater than 224?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Where did the political appointer that was the United States Secretary of the Air Force live as a child?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "The artist that recorded, Thrillerstep, children's names?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What are the official bird and flower of the state whose capital is Lansing?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "Who influenced Abraham Lincoln to become the president?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "Sony Overseas S.A. headquarters is a child organization located where?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Which regions of the world contains some part of the Kingdom of Denmark?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What city is the birthplace of the actress who was the character \"waterpark girl\"?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "Which occupation was Van Gogh famous for, as well as the actor, Inessa Kraft?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Abkhazia is part of what country close to Russia?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the book with ISBN 0023895306 that was written by Aristotle?",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "The country that contains Lopburi Province would require me to take what type of currency?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What year did the team owned by Phillip Anschutz won the Stanley Cup?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What languages are spoken in the location where you'd find the second level division Monte Alto, S\u00c3\u00a3o Paulo?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Which languages are spoken in the country that includes the Cook Islands speak?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the name of the president of the geographic location where Nicolas Sarkozy was appointed to a governmental position?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Who was the President of these United States during WWII?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "In the film with a character named Professor Hamilton, who played Lois?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What structure, opened after November 21, 1959, can you see in Phoenix, Arizona?",
+      "gold": "table",
+      "pred": "text"
+    },
+    {
+      "question": "The location that appointed Vladimir Putin to govermental position is close to what countries?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What is there to do and see in Miami, Florida, where the location time zone is UTC\u00e2\u0088\u009205:00?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "New Territories China is located in what country?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "The country with Al Sharqia Governorate in it used what currency?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the home stadium of the sports team whose fight song is \"Renegade\"?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the middle school that the speaker in the 2012 State of the Union Address attend?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What spoken language is used in the country that has Ashanti Region?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "The nation where the national anthem is Jamaica, Land We Love has what as its official language?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What scientific invention did the architect that designed Montagu House Bloomsbury's made?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What country has the capital named Bulawayo?",
+      "gold": "table",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the currency used in the country of Jamaica?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What is the currency where the Akher Saa newspaper is distributed?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What movie with a character named Sugimoto was Omar Epps in?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "What is the name of the person who wrote the lyrics for \"Heal the World\" movies?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What form of government used in the country with national anthem Lupang Hinirang?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What spouse of Rosemary Clooney is buried in Santa Maria Magdalena de Pazzis Cemetery?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the state bird of the governmental jurisdiction in which the legislative session of the 98th Illinois General Assembly was held?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "In the movie that contains the character OSS Agent #5, who plays Juni?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "In what location was Thoeodore Roosevelt appointed to governmental position and the place where the Cuban Missile Crisis happened?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the name of Andrew Jackson secretary of state that is buried in Green Mount Cemetery?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "What movies featuring Robert Pattinson were produced by Lorne Orleans?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "Where did the Battle of Antietam Creek take place?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "In \"Megamind,\" who did the subject of the image \"Ben stiller2\" portray?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "The country that includes Ulsan uses what system of government?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What currency do they use at the country where Brahma beer is made in?",
+      "gold": "kg",
+      "pred": "kg"
+    },
+    {
+      "question": "Who portrayed Carl Fredricksen in the movie with another character called Nurse George?",
+      "gold": "kg",
+      "pred": "text"
+    },
+    {
+      "question": "Where are the government politics of Denmark situated?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who played dumbledore in the goblet of fire",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who plays gwen stacy in into the spiderverse",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who plays the old lady in jackass 2",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "when did the first pacific rim come out",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "when did the center of the roman empire moved from rome to constantinople",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "when did the city of babylon cease to exist",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "the structure found in the cell that contains strands of dna is called a(n)",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "when was silicon added to the periodic table",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who does billy russo become on the punisher",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where did they sign the paris peace accords",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what year did the vietnam start and end",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "which of the following are components of the pns",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "who took the israelites to the promised land",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "where did the traditional heart shape come from",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who sings how far i'll go from moana",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "how many episodes in season 3 i am jazz",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "a response to intervention (rti) program involves three tiers. during the first tier students",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "lord of the rings fellowship of the ring extended version length",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "winds that blow predominantly from the northeast and the southeast are the",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who is the winner of supper dancer 2018",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what three offices made up virginia's representative government",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "how long does a pygmy goat live for",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who wrote the music for dances with wolves",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "how many countries are still in the british commonwealth",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "what is the capital city of columbia south america",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what is meaning of am and pm in time",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "pay scale of section officer in central secretariat",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "what is andy's sisters name in toy story",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who won season 4 of america's got talent",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "a cube with a side length of blank unit is called a unit cube",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who won the women's championship at wimbledon this year",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who won gold medal in rio paralympics in high jump",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what does the star on the ghana flag mean",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "in the first century c.e. much of europe north africa and the middle east were under the rule of the",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who won season 11 of food network star",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "is tomato a fruit or vegetable us supreme court",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "who wrote of principles of revolution in his catechism of the revolutionary \u200b",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who was the first sri lankan politician who held the office of the prime minister for four times",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "where is the ryder cup golf tournament being played",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "when does the latest riverdale episode come out",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who plays the little girl in field of dreams",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "when does it snow in tasmania what months",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who sings don't get around much anymore",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "how old was ronaldo when he went to manchester united",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "when did pam get pregnant again on the office",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "when did daylight savings time start in washington state",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "harrow on the hill height above sea level",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "when does the 2018 19 nba schedule come out",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who does christopher walken play in the jungle book",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what is the meaning of sword in english",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what was the first book that charles dickens published",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "when were catholic churches allowed back in england",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where is the apendix located in the human body",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "when did canada last qualify for the world cup",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "when were camels introduced into the middle east",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who is the prime minister of republic of mauritius",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who is the yankees all-time leader in pitching wins",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "is leeds in the north west or north east",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "who is the nobel peace prize given to",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "when was the myers briggs type indicator developed",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "when did the atlanta falcons become a team",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who was the first president born a citizen of the united states",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "who is the longest reigning wwe united states champion",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "when does mark show up in grey anatomy",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what is the meaning of region in english",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "queer eye for the straight guy catch phrase",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who was the song hey jude written for",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "how many years is the term for a member of the house of representatives",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "when does season 2 of spirit riding free come out",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what is the name of the island of haiti and dominican republic",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "when has the eagles been to the super bowl",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who was the leader of the bolsheviks when they overthrew the russian monarchy",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where did jason voorhees get the hockey mask",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "when does 13 reasons why season 2 episode 1",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who does the voice for the aflac duck",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "the first railway line between karachi and kotri was constructed in",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "in order to be elected president of the united states a candidate must win",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who wrote the song one wing from sparkle",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who was the killer in the book and then there were none",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who plays the daughter in the series yellowstone",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who is ted talking about in how i met your mother",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who was involved in the waterloo creek massacre",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who played daniel in the bible mini series",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who plays dean and sam dad in supernatural",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what does the speed of a lens mean",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "when does the 2018 mn legislative session end",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who sang the original version of red red wine",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what is the role of antibodies in the immune response",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "number of gun deaths in the united states",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "when did the fourth of july become a legal federal holiday",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "nhl record for shots on goal in a game",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who played lucky on king of the hill",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who plays male lead in far from the madding crowd",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who was the queen of britain during ww1",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where was mash 4077 supposed to be in korea",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who won the under 21 rugby world cup",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "how many sports are there in the 2018 commonwealth games",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "who won the emirates fa cup last year",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where was donovan mitchell picked in the draft",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "composition of the inner core of the earth",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who plays spiderman in captain america civil war",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who got the biggest contract in the nfl",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "when did sri jayawardenepura kotte become the capital",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where does the last name haugen come from",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who won iam a celebrity get me out of here 2018",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "jason isbell songs in a star is born",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who wrote the first book about king arthur",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what is the name of our national anthem",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "is a kitkat a chocolate bar or a biscuit",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who is the longest serving manager in man united",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where did the 2010 world cup take place",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where do the golden knights hockey team play",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where did ali do his rope a dope",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "zones of upwelling near the shores of land masses have high primary production because such zones",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "how many chicks do red tail hawks have",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "when is the last movie of divergent coming out",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who won the women's 400 meter dash in the olympics",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where in canada are most of our oil/gas reserves",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "what is the price of the most expensive painting in the world",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "who played the part of the incredible hulk",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where is the enterprise in star trek discovery",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "when does once upon a time season 7 episode 11 come on",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where might new segments be added during growth in a polychaete worm",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "when did germany take alsace lorraine from france",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what is the boy's name in paw patrol",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who played alice in seven brides for seven brothers",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "bible verse if your hand causes you sin cut off",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "within the townships created by the land ordinance of 1785 one section was set aside for",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who invented the greater than and less than sign",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "first african-american female actress who won the emmy awards",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what type of government do we have in the united states today",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where did the battle of chattanooga take place",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "state the type of stimulus that would cause a knee jerk reflex to occur",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what was the copperheads position on fighting the war",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what kind of currency is used in new zealand",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where has the us manufacturing belt been traditionally located (specific cities)",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "when does jacob find out he's a werewolf",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "why did they kill off fran on mama's family",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what does the white diamond road marking mean",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who played roxy in the story of tracy beaker",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who wrote the song come thou fount of every blessing",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who is the lady on the australian 5 dollar note",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who hit the most 3 pointers in a nba game",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "how did monkey d luffy get his powers",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what year did the drummer lose his arm",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "when does life is strange before the storm part 2",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "how is the head of the church of england",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who did the make up for planet of the apes",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "why is rifling present in the bore of the barrel",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who sings lookin for love in all the wrong places",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who coached queensland in the 2001 state of origin series",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who said truth justice and the american way",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who would take over if the president dies",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "who won the gold metal for men's ice hockey in 2014",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what happened to the plane in the hudson",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what is the meaning of sap erp system",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where does us route 42 start and end",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who played the baby in the baby and the battleship",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what was the composition of the estate general of france",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "how far is the horsehead nebula from earth",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where did miranda move in sex and the city",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "when did season 3 of family guy air",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where can i find season 2 of this is us",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "when was in the heat of the night made",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "when did countrywide merge with bank of america",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what kind of dog was in old yeller",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who did mr drummond marry on diff'rent strokes",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who is the cheif minister of uttar pradesh up",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "how many new zealand soldiers died in ww1",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "who has the most medals in this year's winter olympics",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "when did the united states leave the philippines",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who is the football coach at georgia southern",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where is orange county choppers located in new york",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where does it always sunny in philadelphia take place",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who plays dylan in now you see me",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "how much is a table spoon in ounces",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "where did the saudi foreign minister go to school",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "when did the supreme court ruled that bus segregation was unconstitutional",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who won the first stage of the 2018 tour de france",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "how many episodes of handmaids tale season two will there be",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what type of hybrid is the ford fusion",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who sang you're a mean one mister grinch",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "my life as a teenage robot series finale",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who is the heroine of quit india movement",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "daniel bedingfield if you're not the one album",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "the central meeting place for government officials in ancient greece was",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who scored the fastest goal in fifa world cup",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where does the last name escobar originate from",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "when did willy wonka and the chocolate factory debut",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what town does stranger things take place in",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "how many cards do you get when you play uno",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "the doctrine of lapse was causes of which rebellion",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what is the status of the iter fusion power project",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what was the name of the first ever mickey mouse cartoon",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who plays the little boy in before i wake",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "when did the secret service start guarding the president",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who is the second most subscribed on youtube",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "when did the staircase come out on netflix",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "twilight zone the mind and the matter cast",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "david baldacci king & maxwell books in order",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who holds the record for the longest field goal",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where does the clone wars fit in with the movies",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "when did second world war start and end",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where does the red river begin and end",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who are the candidates running for governor of maine",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "how many teams from asia will qualify for world cup 2018",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "who plays leonard snart in legends of tomorrow",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who sang i've got a brand new pair of roller skates",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who does the news on fox and friends",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where is the microchip placed in a dog",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "who played superman in the tv series smallville",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who sang the song our house in the middle of the street",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where does sea water fish get their supply of oxygen",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "where was a doll's house first performed",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what is the tallest radio tower in the world",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who has scored the most goals for arsenal",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who sings with shaggy on it wasn me",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "every morning in africa a gazelle wakes up author",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what is the day of the dead festival in mexico",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "which waterway connects the mediterranean sea with red sea",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "who plays the step dad in ant man",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "the two most common tertiary storage media are",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what is the control unit function in the cpu",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "which one is the biggest airplane in the world",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "a series of unfortunate events season 1 episode 2",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where is arkansas river located on a map",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what is the name of the most important jewish text",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what is the average age to die in the uk",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "what is the most watched music video on youtube of all time",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who owns st andrews golf course in scotland",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "who was the winner of season 1 skin wars",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "when was the first robot used in surgery",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what does the amg stand for in mercedes benz",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where are sperm cells produced in the human male",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what happens when you get a shot clock violation",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "who was the shrew in taming ofthe shrew",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "when did the xbox 360 slim come out",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "where is the femur located on the human body",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "at what output is marginal product of labour the highest",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "where is the new texas rangers stadium being built",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "what are the nerves called that emerge from the thoracic region of the spinal cord",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "deadweight loss measures the inefficiency as the loss of",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "list of hum tv dramas based on novels",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "when did the lion king movie come out",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "how many states are within germany\u2019s borders",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "which is the latest game of thrones season",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "the joy of life was painted in which style",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "the human tendency to mimic other people\u2019s behavior is an example of",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Snowflakes are symmetrical. How many sides do they have?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Alicante, Cardinal, Cassidy, Niagara and Palamino are all varieties of which fruit?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What is composer Offenbach\u2019s \u2018Galop Infernal\u2019 better known as?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What was the official occupation of Sir Anthony Blunt who was unmasked as a Soviet spy in 1979?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What is the biggest studio in Hollywood called?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "\"Of what electoral system are \"\"single transferable vote\"\" and \"\"party list\"\" forms?\"",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Which European country restored its monarchy in 1975?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What did L. Fran Baum, author of the The Wonderful Wizard of Oz, call his home in Hollywood?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which newspaper did Jackie Kennedy work for just before her marriage?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Who wrote the music for the ballets 'The Firebird' and 'The Rite of Spring'?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Gary Lightbody from Northern Ireland is the lead singer with which band?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Seppuku, part of the code of Samurai warriors, is better known by what name?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What is the title of the Millais painting used to advertise Pears Soap?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which of the emissions from cars are acidic?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "How many of the four Grand Slam trophies in tennis are gold; how many are silver?",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "What is a cylindrical coil of wire in which a magnetic field is created when an electric current is passed though it?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "When did the founder of Jehovah's Witnesses say the world would end?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the name of the headquarters of the US Department of Defense, located in Arlington County, Virginia?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What popular drink did a Dutch medical professor produce in his laboratory while trying to come up with a blood cleanser that could be sold in drugstores?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Who founded the Organization of Afro American Unity?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "When was the nobel prize for literature first awarded?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "\"In which Cypriot town will you find the \"\"Tombs of the Rings\"\"?\"",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "The Bicycle manufacturers Trek, Giant and Specialized come from which country ?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Where was the peace treaty signed that brought World War I to an end?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "If Tony Blackburn won in 2002, Phil Tuffnell won in 2003, and Kerry Katona won in 2004, who won in 2007?",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "Which mobile phone company was established in 2001 when a Japanese company merged with a Swedish company?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which scientific unit gives a measure of loudness?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What was Al Pacino's first movie?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Whose book Inside NO 10 described Harold Wilson's Downing Street years?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Where was Che Guevara killed?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "On which horse did Tony McCoy win the 2010 Grand National on his 15th attempt?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which British composer based an opera on Henry James novella \u2018The Turn of the Screw\u2019?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Who wrote the children's classic The Lion, The Witch and The Wardrobe?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What name is given to the microscopic plants found in great numbers in rivers, lakes, and oceans?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Who was Clark Kent's high school sweetheart?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which English Victorian author was born in 1812 in Old Commercial Rd, Landport, Portsmouth?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Which ship was sunk by a German submarine in 1915 with a loss of 1400 lives including 128 Americans?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What is the collective noun for crows?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "On a Monopoly board, what are B & O, Reading, Short Line and Pennsylvania?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Syngenesophobia is the irrational fear of who?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "In which film did Susan Sarandon play Sister Helen Prejean?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "\"Which 18th-century dictionary compiler defined himself as a \"\"harmless drudge\"\"?\"",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which prince is Queen Elizabeth II's youngest son?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Of which country is Vientiane the capital?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which planet has a day which lasts eight months?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Hellenikon international airport is in which country?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Who was Sherlock Holmes' assistant?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "The first stock market in which city was established in 1792 with 24 stock brokers meeting at the Tontine Coffee House?",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "Which soul singer is Whitney Houston's god mother?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What is the predominant flavour of fennel?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Ligustrum Ovalifolium is the Latin name for which shrub?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Who was the leader of the band that appeared in The Brady Bunch Movie?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What historic event does the nursery rhyme Ring-a-ring of roses commemorate?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which name of something used by avid readers is the Netscape Navigator name for Favorites?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "What is the name given to the molten rock beneath the surface of the Earth?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "The condition of seasonal allergic rhinitis is better known by what name?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "From which country does the drink Stella Artois originate?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "The gemstone ruby is the birthstone of people born in which month of the year?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "How many white squares are there on a chess board?",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "How many husbands did the Wife of Bath have, as reported in Chaucer's Canterbury Tales?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "In which decade of the 20th century was Billy Crystal born?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What is the capital of the U.S. state of Hawaii?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which actor had a Doberman Pinscher called Kirk?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What is the name of the British political regime 1649-60 established by Oliver Cromwell?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "German Brothers Wilhelm and Jacob wrote which book in 1812?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What was Kevin Kline's first movie?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which is further north, the tropic of cancer or the tropic of Capricorn?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Henri Becquerel shared a Nobel prize for his work in discovering what?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "In which sport is the position of goal attack found?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which is the most northerly of the Met Office shipping forecast areas?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "The US signed a treaty with which country to allow the construction of the Panama Canal?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Who wrote The Turn Of The Screw in the 19th century and The Ambassadors in the 20th?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Which Irishman has won the Eurovision song contest twice as a singer and once as a composer?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What was the Aristocrat record label renamed?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which city has a sports team of Steelers and team of Pirates?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Who replaced Mary Robinson as president of Ireland in 1997?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What was the title of Kitty Kelley's book about Elizabeth Taylor?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which city was the HQ of the European Space program?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "In which Bond film did Britt Ekland appear?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "In which country did Argentina first win soccer's World Cup?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Stapleton international airport is in which US state?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which battle of 1876 was Custer's last stand?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "How many players in total get down in a normal rugby union scrum?",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "John Lennon and Yoko Ono recorded \u2018Give Peace a Chance\u2019 at the Hotel La Reine in which city in Canada in 1969?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Who managed the first English side to win the European Cup?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Who is the only woman whose age is mentioned in the Bible?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Who was British Prime Minister when World War II broke out?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "\u2018Full English\u2019 relates to which meal?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Who was the first president of the National Football League?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What is an unchanging position in which forces cancel each other out?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Which British political figure became Baroness Kesteven?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Familiarity breeds contempt - and children.",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which famous brother of Talia Shire does not share her last name?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Inspector 'Dirty' Harry Callaghan attempted to clean up the streets of which US City?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which English king abdicated and became Duke of Windsor?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "The worlds largest spider is named after which biblical character?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What is the capital of Kenya?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What did Franz Kafka do for a day job?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which role as 'the other woman' won Glenn Close her first Oscar nomination?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What name is given to the layer of the atmosphere closest to the surface of the Earth?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which of the Bronte sisters wrote Wuthering Heights?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Ezzard Charles was a world champion in which sport?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which band released the 1999 comeback single Maria?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What was the total population of the world at the time of Christ?",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "When Walt Disney's seven dwarfs went off to work in the mines, what were they looking for?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Who wrote the song Momma Told Me Not To Come?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "The US television series \u2018The Wire\u2019 is set in which city?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "True or False: Great Britain is one of the top ten largest islands in the world?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What date is Father's Day?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Who was the original host of The Price Is Right?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Who was Home Secretary during the Foreign Prisoners Scandal of 2006?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Whose scandalous affair with Lord Alfred Douglas eventually led to imprisonment?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What are the young of bats called?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "The Solheim cup is the women's equivalent of which famous sporting cup?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What did Woody Allen call his son as a tribute to Louis 'Satchmo' Armstrong?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Where was The Iron Triangle?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What can go up a chimney down, but not down a chimney up?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Who was the admiral of the French fleet defeated by Nelson at the Battle of Trafalgar?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "How many home runs did baseball great Ty Cobb hit in the three world series in which he played?",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "Ti Amo means I Love You in which language?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which country does musician Alfred Brendel come from?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "In Greek mythology, who was the goddess of the rainbow?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "The Terror of the Monster was an early title for a best-selling novel which inspired one of the highest-grossing movies of the mid-70's. Under what name did it eventually terrify the reading and film going public?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Who was Benazir Bhutto's Father who was executed in 1988?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Which Amendment to the Constitution brought in prohibition in 1920?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What day of the week was the Wall Street Crash?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "The Mackinac Bridge connects the Upper and Lower peninsulas of which US state?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Built in 1869, which famous British ship was named after a Scottish undergarment?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "In the 90s how many points have been awarded for finishing second in a Grand Prix?",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "\"Who founded the modern republic of Turkey and, in 1934, took a name meaning \"\"Father of the Turks\"\"?\"",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Who was mayor of New York during the race riots of 1996?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "The Kyat is the national currency of which Asian country?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What 1948 novel was originally going to be called The Last Man in Europe?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Copyrightable is the longest word in the English language that can be written without repeating a letter?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "\"Which French revolutionary was nicknamed \"\"the Incorruptible\"\"?\"",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Who painted The Laughing Cavalier?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What star sign is Michael Caine?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Which Argentinean became conductor of the New York Philharmonic in 1970?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What is the term used when a sitting MP is removed as the candidate for a forthcoming election?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which President wrote Why England Slept about the rise of Fascism?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What was the name of the late King\u2019s jester in Shakespeare\u2019s \u2018Hamlet\u2019?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Who was Israeli Prime Minister from 1969 to 1974?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "If the US states that border Canada from west to east are Washington, Idaho, Montana, and North Dakota, what comes next?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What was the original name of the Cape of Good Hope?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which Thomas Harris novel was the top selling adult fiction novel of the year 2000 in the UK?",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "Who produced the first Chinook helicopter in 1961?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which royal house consisted of Henry IV, Henry V and Henry VI?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Who ordered the Boulder Dam to be renamed the Hoover Dam?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which American wrote The Game of Chess in 1959?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which London railway station has the most platforms?",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "\"In the Bible, for what \"\"price\"\" did Esau sell his birthright to his younger twin brother, Jacob?\"",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "\u2018Tanach\u2019 describes the whole of the scriptures of which religion?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Which hit starting with the word Rock took over NO 1 from Rock The Boat?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What is the world's most southerly capital?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Who was the third wife of the leader of China's Long March?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "In kilometres, how long is the coastline of Brazil?",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "Which company makes the iPod and the iPhone?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which part of the male does a female mantis usually bite off during mating?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "In which capital city did the assassination of Archduke Franz Ferdinand trigger World War I?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "In the Harry Potter novels, what species of owl is Hedwig?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "How many teaspoons are there in a cup?",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "Which tough guy played Mr. Freeze in Batman & Robin?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which group take their name from the promoter (Bill Goode), and the DJ that first played their records (Bill Gates)?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "In which Formula One team did Damon Hill replace Nigel Mansell?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Who wrote the play Under Milk Wood?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What is the state of inactivity through the dry, summer season, as hibernation is the dormancy of the winter months?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Which city was devastated by an earthquake in 1985 and then hosted the World Cup in 1986?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "In heraldry, a bar sinister, a broad diagonal stripe from top right to bottom left on a shield, was supposed to signify what?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "How many people are there in an official tug of war team?",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "the first credit cards were for use in what type of establishments?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Who was the German soldier in Rowan and Martin's Laugh In?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "How many legs has an insect?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "\"What is the actual title of Leonardo da Vinci's \"\"Mona Lisa\"\"?\"",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which Russian-born American wrote I, Robot?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What is the name of the statue by Antony Gormley that stands near the A1 motorway in Gateshead?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "The expression Great White Hope was used to describe which black boxer's opponents?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "In religion, according to Islam, who was the last of the prophets?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Name the East African country which lies on the equator.",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What Olympic sport is derived from the Greek word for naked?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Before the most recent Christmas specials, how may episodes were there in which neither Uncle Albert or Grandad appeared? None, two or nine?",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "Which city was called Leninakan until 1990?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Which Oscar nominated film of 2014 chronicles Martin Luther King's campaign to secure equal voting rights via an epic march?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What is the maximum no of match points that can be held at one time in a tennis match at Wimbledon?",
+      "gold": "text",
+      "pred": "table"
+    },
+    {
+      "question": "As at 2004, which actor is the only member of the original Coronation Street cast who is still in the show?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "The Ironman event consists of 3 elements - a marathon, swimming, and which other?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which word used to be in the name of The San Francisco Ballet?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which is the largest of the Japanese Volcano Islands?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "In what year did Percy L. Spencer invent the microwave?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Who is the Celtic sun-god?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Which chemical element is also known as Hydrargyrum?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Who founded the magazine Camera Work?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which Canadian city gave its name to the 1987world agreement on protection of the ozone layer?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What has been won by Australia II and America 3?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Who did Alex Ferguson succeed as manager of Manchester united?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "In the song The Twelve Days Of Christmas, what did my true love give to me on the 12th day?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which English city stands on the river Nene?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "How was Oflag IVC prison camp better known?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which major British newspaper closed down for almost a year in 1978?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which family ruled Florence for three centuries from 1434?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "If you are a Greek man and wear a fustenella what kind of garment would you be wearing?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What kind of orchard did Chekhov write a play about?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Great Briton fought which country over the Falkland Islands?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Which 100-mile long waterway links the Mediterranean and the Red Sea?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Who was the last man to win Wimbledon and the French open singles in the same year?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Which chemical element has the symbol Fe?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Who was the Prime Minister of Australia from 1983 - 1991?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What is the Latin name for the North Star?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which country is Europe's largest silk producer?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which American author created the character Rip Van Winkle?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What is the most widely eaten meat in the world?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "From which country does the Lambada dance originate?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which sport features the terms cow corner, a featherbed, dibbly dobbly and a sticky dog?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Who rode Affirmed for each race when he won the Triple Crown?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "On whose fable was Guys and Dolls based?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What was the name of the island off Iceland which appeared in 1963 as a result of an underwater volcano?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which European cou8ntry was first this century to give women the vote?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "In which country are Tangier and Casablanca?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "If edu appears at the end of an address, what is the host computer?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "In which decade did golfer Gary Player last win the British Open?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Who interviewed Dudley Moore about his illness in November 1999?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Located in Yorkshire, what are Drax and Eggborough?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "In 1776, the United States Declaration of Independence decreed that how many American colonies, which were at war with Britain, were no longer part of the British Empire?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which two colors appear on the flag of Greece?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What was left in Pandora's box after she released misery and evil?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "In which children's TV show could you have seen the character of Windy Miller?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What was Wham!'s first No 1?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "On January 1st 2011, which country became the 17th Eurozone country, when it adopted the Euro as its currency?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "In which capital city were the treaties signed that established the European Economic Community?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What was the name of the she-ape that rescued the infant Tarzan and raised him to be Lord of the Apes?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "Which three digits can be found in the bushes at the base of the Lincoln Memorial on a US $5 (Five dollar) bill?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "According to legend, who fired the arrow that hit Achilles in the heel, his only vulnerable spot?",
+      "gold": "text",
+      "pred": "kg"
+    },
+    {
+      "question": "Which religious grou0p migrated westward to the Great Salt Lake, Utah, in 1847?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "UN Secretary Dag Hammarskjold was killed over which country?",
+      "gold": "text",
+      "pred": "text"
+    },
+    {
+      "question": "What was the occupation of Edith Cavell who was shot by the Germans in WWI?",
+      "gold": "text",
+      "pred": "text"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "oracle": {
+    "published": 0.802,
+    "strict": 0.80248833592535,
+    "loose": 0.8304821150855366,
+    "reproduces": "STRICT",
+    "delta_strict_minus_published": 0.0004883359253499142
+  },
+  "random": {
+    "published": 0.385,
+    "strict": 0.3880248833592535,
+    "loose": 0.4035769828926905,
+    "reproduces": "STRICT",
+    "delta_strict_minus_published": 0.003024883359253494
+  },
+  "majority": {
+    "published": 0.558,
+    "strict": 0.5583203732503889,
+    "loose": 0.5979782270606532,
+    "reproduces": "STRICT",
+    "delta_strict_minus_published": 0.0003203732503888057
+  },
+  "bge_confidence": {
+    "published": 0.778,
+    "strict": 0.755054432348367,
+    "loose": 0.7776049766718507,
+    "reproduces": "LOOSE",
+    "delta_strict_minus_published": -0.022945567651633025
+  },
+  "prefrag_conf": {
+    "published": 0.3,
+    "strict": 0.2986003110419907,
+    "loose": 0.3001555209953344,
+    "reproduces": "LOOSE",
+    "delta_strict_minus_published": -0.001399688958009293
+  },
+  "r3ag_full": {
+    "published": 0.354,
+    "strict": 0.3468118195956454,
+    "loose": 0.3540694660445827,
+    "reproduces": "LOOSE",
+    "delta_strict_minus_published": -0.007188180404354594
+  },
+  "r3ag_rq": {
+    "published": 0.74,
+    "strict": 0.7091757387247278,
+    "loose": 0.73950233281493,
+    "reproduces": "LOOSE",
+    "delta_strict_minus_published": -0.030824261275272158
+  },
+  "gpt4o_zeroshot": {
+    "published": 0.646,
+    "strict": 0.6236391912908242,
+    "loose": 0.6461897356143079,
+    "reproduces": "LOOSE",
+    "delta_strict_minus_published": -0.022360808709175783
+  },
+  "sg_superv": {
+    "published": 0.714,
+    "strict": 0.7133229652669777,
+    "loose": 0.7369103162260239,
+    "reproduces": "STRICT",
+    "delta_strict_minus_published": -0.0006770347330222748
+  },
+  "sg_joint": {
+    "published": 0.725,
+    "strict": 0.7249870399170555,
+    "loose": 0.7511664074650078,
+    "reproduces": "STRICT",
+    "delta_strict_minus_published": -1.2960082944490914e-05
+  },
+  "mlp_hard_ce": {
+    "published": 0.739,
+    "strict": 0.7094349403836184,
+    "loose": 0.7384655261793677,
+    "reproduces": "LOOSE",
+    "delta_strict_minus_published": -0.02956505961638156
+  },
+  "logistic_regression": {
+    "published": 0.722,
+    "strict": 0.6819595645412131,
+    "loose": 0.71850699844479,
+    "reproduces": "LOOSE",
+    "delta_strict_minus_published": -0.04004043545878688
+  }
+}

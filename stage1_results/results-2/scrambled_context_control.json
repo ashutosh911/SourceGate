@@ -1,0 +1,38 @@
+{
+  "n_scored": 1286,
+  "seed": 20260925,
+  "scrambled": {
+    "variance_query": 0.9419154275458491,
+    "variance_source": 0.002217254342476063,
+    "variance_interaction": 0.05586731811167477,
+    "macro": 0.3573214542399051,
+    "acc": 0.3545878693623639,
+    "pick_rate": {
+      "text": 0.37947122861586313,
+      "table": 0.26049766718507,
+      "kg": 0.36003110419906686
+    },
+    "mean_nll": {
+      "text": 3.669049111903177,
+      "table": 3.744305477264695,
+      "kg": 3.658361023358572
+    }
+  },
+  "real_context_reference": {
+    "variance_query": 0.751,
+    "variance_source": 0.032,
+    "variance_interaction": 0.217,
+    "macro": 0.5883,
+    "pick_rate": {
+      "text": 0.502,
+      "table": 0.199,
+      "kg": 0.298
+    }
+  },
+  "baselines": {
+    "random_macro": 0.337,
+    "bge_confidence": 0.661,
+    "supervised": 0.737,
+    "base_rate_kg": 0.163
+  }
+}

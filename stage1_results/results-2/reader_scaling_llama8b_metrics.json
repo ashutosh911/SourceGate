@@ -1,0 +1,234 @@
+{
+  "r3ag_rq": {
+    "method": "r3ag_rq",
+    "reader": "Llama-3.1-8B-Instruct-4bit",
+    "n": 1286,
+    "f1_mean": 0.33773008989354103,
+    "em_mean": 0.23716951788491447,
+    "recall_at_picked": 0.713841368584759,
+    "nll_mean": 6.570897305920187,
+    "per_type_f1": {
+      "table": 0.18215953510631255,
+      "text": 0.4463193582045373,
+      "kg": 0.2329268698441631
+    },
+    "per_type_n": {
+      "table": 359,
+      "text": 717,
+      "kg": 210
+    },
+    "routing_acc": 0.73950233281493,
+    "routing_macro": 0.6665282511414842,
+    "routing_per_type_acc": {
+      "text": 0.8256624825662483,
+      "table": 0.754874651810585,
+      "kg": 0.41904761904761906
+    }
+  },
+  "r3ag_full": {
+    "method": "r3ag_full",
+    "reader": "Llama-3.1-8B-Instruct-4bit",
+    "n": 1286,
+    "f1_mean": 0.30421560105057266,
+    "em_mean": 0.22006220839813376,
+    "recall_at_picked": 0.5349922239502333,
+    "nll_mean": 6.537262868947997,
+    "per_type_f1": {
+      "table": 0.10376687887703503,
+      "text": 0.4227364073304105,
+      "kg": 0.24222356846798382
+    },
+    "per_type_n": {
+      "table": 359,
+      "text": 717,
+      "kg": 210
+    },
+    "routing_acc": 0.505443234836703,
+    "routing_macro": 0.4866498762455686,
+    "routing_per_type_acc": {
+      "text": 0.5676429567642957,
+      "table": 0.3732590529247911,
+      "kg": 0.5190476190476191
+    }
+  },
+  "api_cost": {
+    "total_usd": 0.0,
+    "input_tokens": 36696,
+    "output_tokens": 181
+  },
+  "majority": {
+    "method": "majority",
+    "reader": "Llama-3.1-8B-Instruct-4bit",
+    "n": 1286,
+    "f1_mean": 0.3006916978111956,
+    "em_mean": 0.21384136858475894,
+    "per_type_f1": {
+      "text": 0.45759992912084535,
+      "table": 0.06995475408804105,
+      "kg": 0.15941246422830815
+    },
+    "per_type_n": {
+      "text": 717,
+      "table": 359,
+      "kg": 210
+    },
+    "rebuilt_from": "reader_scaling_llama8b_predictions_majority.jsonl",
+    "recall_at_picked": 0.5583203732503889,
+    "routing_acc": 0.557542768273717,
+    "routing_macro": 0.3333333333333333,
+    "routing_per_type_acc": {
+      "text": 1.0,
+      "table": 0.0,
+      "kg": 0.0
+    }
+  },
+  "bge_confidence": {
+    "method": "bge_confidence",
+    "reader": "Llama-3.1-8B-Instruct-4bit",
+    "n": 1286,
+    "f1_mean": 0.36001747204010226,
+    "em_mean": 0.2573872472783826,
+    "per_type_f1": {
+      "text": 0.4722837653527987,
+      "table": 0.1964944578786511,
+      "kg": 0.2562547567008528
+    },
+    "per_type_n": {
+      "text": 717,
+      "table": 359,
+      "kg": 210
+    },
+    "rebuilt_from": "reader_scaling_llama8b_predictions_bge_confidence.jsonl",
+    "recall_at_picked": 0.755054432348367,
+    "routing_acc": 0.73950233281493,
+    "routing_macro": 0.6611114348576616,
+    "routing_per_type_acc": {
+      "text": 0.8340306834030683,
+      "table": 0.7493036211699164,
+      "kg": 0.4
+    }
+  },
+  "logreg": {
+    "method": "logreg",
+    "reader": "Llama-3.1-8B-Instruct-4bit",
+    "n": 1286,
+    "f1_mean": 0.33843595708776913,
+    "em_mean": 0.23950233281493002,
+    "per_type_f1": {
+      "text": 0.4450204053365468,
+      "table": 0.18121612741926213,
+      "kg": 0.24329724021453347
+    },
+    "per_type_n": {
+      "text": 717,
+      "table": 359,
+      "kg": 210
+    },
+    "rebuilt_from": "reader_scaling_llama8b_predictions_logreg.jsonl",
+    "recall_at_picked": 0.6912908242612753,
+    "routing_acc": 0.7052877138413686,
+    "routing_macro": 0.6437546237944834,
+    "routing_per_type_acc": {
+      "text": 0.7712691771269177,
+      "table": 0.7409470752089137,
+      "kg": 0.41904761904761906
+    }
+  },
+  "mlp_hardce": {
+    "method": "mlp_hardce",
+    "reader": "Llama-3.1-8B-Instruct-4bit",
+    "n": 1286,
+    "f1_mean": 0.33900165165796037,
+    "em_mean": 0.24027993779160187,
+    "per_type_f1": {
+      "text": 0.4375292673569606,
+      "table": 0.18771144268895068,
+      "kg": 0.2612344352945857
+    },
+    "per_type_n": {
+      "text": 717,
+      "table": 359,
+      "kg": 210
+    },
+    "rebuilt_from": "reader_scaling_llama8b_predictions_mlp_hardce.jsonl",
+    "recall_at_picked": 0.7076205287713841,
+    "routing_acc": 0.7192846034214619,
+    "routing_macro": 0.7008741711857062,
+    "routing_per_type_acc": {
+      "text": 0.7210599721059973,
+      "table": 0.7910863509749304,
+      "kg": 0.5904761904761905
+    }
+  },
+  "sourcegate": {
+    "method": "sourcegate",
+    "reader": "Llama-3.1-8B-Instruct-4bit",
+    "n": 1286,
+    "f1_mean": 0.34070326319164107,
+    "em_mean": 0.2410575427682737,
+    "per_type_f1": {
+      "text": 0.43799562206883963,
+      "table": 0.1820053567600235,
+      "kg": 0.279817201734495
+    },
+    "per_type_n": {
+      "text": 717,
+      "table": 359,
+      "kg": 210
+    },
+    "rebuilt_from": "reader_scaling_llama8b_predictions_phase3_seed42.jsonl",
+    "recall_at_picked": 0.7083981337480559,
+    "routing_acc": 0.7091757387247278,
+    "routing_macro": 0.7424836873363114,
+    "routing_per_type_acc": {
+      "text": 0.6527196652719666,
+      "table": 0.7604456824512534,
+      "kg": 0.8142857142857143
+    }
+  },
+  "prefrag_conf": {
+    "method": "prefrag_conf",
+    "reader": "Llama-3.1-8B-Instruct-4bit",
+    "n": 1286,
+    "f1_mean": 0.3234483151158975,
+    "em_mean": 0.23950233281493002,
+    "per_type_f1": {
+      "text": 0.43798478523791906,
+      "table": 0.10740645909970356,
+      "kg": 0.30171677812696474
+    },
+    "per_type_n": {
+      "text": 717,
+      "table": 359,
+      "kg": 210
+    },
+    "rebuilt_from": "reader_scaling_llama8b_predictions_prefrag_conf.jsonl",
+    "recall_at_picked": 0.6594090202177294,
+    "routing_acc": 0.6057542768273717,
+    "routing_macro": 0.5882242649704567,
+    "routing_per_type_acc": {
+      "text": 0.6541143654114365,
+      "table": 0.5153203342618384,
+      "kg": 0.5952380952380952
+    }
+  },
+  "no_routing": {
+    "method": "no_routing",
+    "reader": "Llama-3.1-8B-Instruct-4bit",
+    "n": 1286,
+    "f1_mean": 0.3644111399708003,
+    "em_mean": 0.2620528771384137,
+    "per_type_f1": {
+      "text": 0.4732215147684013,
+      "table": 0.20089391687421038,
+      "kg": 0.2724380178841139
+    },
+    "per_type_n": {
+      "text": 717,
+      "table": 359,
+      "kg": 210
+    },
+    "rebuilt_from": "reader_scaling_llama8b_predictions_no_routing.jsonl",
+    "routing": "none (union retrieval); per-source routing metrics undefined"
+  }
+}

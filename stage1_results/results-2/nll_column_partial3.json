@@ -1,0 +1,32 @@
+{
+  "oracle": {
+    "nll_mean": 3.7843383825724457,
+    "nll_median": 3.536675453186035,
+    "n_scored": 1286,
+    "pick_dist": {
+      "text": 717,
+      "table": 359,
+      "kg": 210
+    }
+  },
+  "random": {
+    "nll_mean": 3.883332873136964,
+    "nll_median": 3.6468093395233154,
+    "n_scored": 1286,
+    "pick_dist": {
+      "text": 417,
+      "table": 426,
+      "kg": 443
+    }
+  },
+  "bge_confidence": {
+    "nll_mean": 3.828141804923583,
+    "nll_median": 3.6124085187911987,
+    "n_scored": 1286,
+    "pick_dist": {
+      "text": 790,
+      "table": 297,
+      "kg": 199
+    }
+  }
+}

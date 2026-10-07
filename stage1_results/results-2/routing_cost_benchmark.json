@@ -1,0 +1,124 @@
+{
+  "config": {
+    "n_queries": 100,
+    "faiss_device": "cpu",
+    "top_k": 10,
+    "batch_size": 1
+  },
+  "index_memory": {
+    "per_dataset": {
+      "nq": {
+        "bytes_on_disk": 4448756781,
+        "gib_on_disk": 4.1432276191189885
+      },
+      "triviaqa": {
+        "bytes_on_disk": 1445329965,
+        "gib_on_disk": 1.3460684241726995
+      },
+      "ott": {
+        "bytes_on_disk": 161405997,
+        "gib_on_disk": 0.1503210486844182
+      },
+      "tat": {
+        "bytes_on_disk": 9959469,
+        "gib_on_disk": 0.009275478310883045
+      },
+      "kg": {
+        "bytes_on_disk": 3769694253,
+        "gib_on_disk": 3.510801357217133
+      }
+    },
+    "total_gib": 9.159693927504122,
+    "note": "All five indices must remain resident under every strategy, including routing: the router cannot know which index it needs before it runs. Routing reduces search work, not index footprint."
+  },
+  "faiss_search_ms": {
+    "nq": {
+      "mean_ms": 79.97996024999338,
+      "std_ms": 0.7386587242017194
+    },
+    "triviaqa": {
+      "mean_ms": 26.51077864004037,
+      "std_ms": 0.17663597872492504
+    },
+    "ott": {
+      "mean_ms": 3.1620282599669736,
+      "std_ms": 0.06512824844581953
+    },
+    "tat": {
+      "mean_ms": 0.18441488999087596,
+      "std_ms": 0.005525452579833517
+    },
+    "kg": {
+      "mean_ms": 67.21348556995508,
+      "std_ms": 0.3459061255985756
+    }
+  },
+  "bge_encode_ms": {
+    "mean_ms": 1.656041349961015,
+    "std_ms": 0.17144209465272497
+  },
+  "sourcegate_mlp_ms": {
+    "mean_ms": 0.06229868002264993,
+    "std_ms": 0.031770248878124394,
+    "n_params": 461059
+  },
+  "reader_forward_ms": {
+    "mean_ms": 163.5824667999259,
+    "std_ms": 0.36462106627039204,
+    "n_rep": 20,
+    "seq_len": 364,
+    "resident_vram_gib": 5.664463996887207,
+    "peak_vram_gib": 14.416805267333984
+  },
+  "routing_mix": {
+    "text": 0.4214618973561431,
+    "table": 0.2558320373250389,
+    "kg": 0.322706065318818
+  },
+  "faiss_cost_ms": {
+    "one_type_expected": 67.42811569694074,
+    "per_type": {
+      "text": 106.49073889003375,
+      "table": 3.3464431499578495,
+      "kg": 67.21348556995508
+    },
+    "all_five": 177.0506676099467
+  },
+  "per_strategy_ms": {
+    "Random / Majority": {
+      "encode_ms": 1.656041349961015,
+      "mlp_ms": 0.0,
+      "faiss_ms": 67.42811569694074,
+      "reader_ms": null,
+      "total_ms": 69.08415704690175
+    },
+    "SourceGate (Superv.)": {
+      "encode_ms": 1.656041349961015,
+      "mlp_ms": 0.06229868002264993,
+      "faiss_ms": 67.42811569694074,
+      "reader_ms": null,
+      "total_ms": 69.1464557269244
+    },
+    "PrefRAG-Conf": {
+      "encode_ms": 1.656041349961015,
+      "mlp_ms": 0.0,
+      "faiss_ms": 177.0506676099467,
+      "reader_ms": 490.7474003997777,
+      "total_ms": 669.4541093596854
+    },
+    "No-routing (union)": {
+      "encode_ms": 1.656041349961015,
+      "mlp_ms": 0.0,
+      "faiss_ms": 177.0506676099467,
+      "reader_ms": null,
+      "total_ms": 178.7067089599077
+    },
+    "Hybrid (tau=0.70)": {
+      "encode_ms": 1.656041349961015,
+      "mlp_ms": 0.06229868002264993,
+      "faiss_ms": 117.41599936927145,
+      "reader_ms": null,
+      "total_ms": 119.13433939925511
+    }
+  }
+}

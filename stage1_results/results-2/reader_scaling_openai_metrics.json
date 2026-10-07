@@ -1,0 +1,317 @@
+{
+  "oracle": {
+    "method": "oracle",
+    "reader": "GPT-4o-mini",
+    "n": 1286,
+    "f1_mean": 0.4548336777605716,
+    "em_mean": 0.31804043545878696,
+    "recall_at_picked": 0.80248833592535,
+    "per_type_f1": {
+      "table": 0.2953678366849335,
+      "text": 0.5358780829626739,
+      "kg": 0.45073557498079436
+    },
+    "per_type_n": {
+      "table": 359,
+      "text": 717,
+      "kg": 210
+    },
+    "routing_acc": 1.0,
+    "routing_macro": 1.0,
+    "routing_per_type_acc": {
+      "text": 1.0,
+      "table": 1.0,
+      "kg": 1.0
+    }
+  },
+  "phase3_per_seed": [
+    {
+      "method": "phase3_seed42",
+      "reader": "GPT-4o-mini",
+      "n": 1286,
+      "f1_mean": 0.43980299599638406,
+      "em_mean": 0.30870917573872475,
+      "recall_at_picked": 0.7083981337480559,
+      "per_type_f1": {
+        "table": 0.2607478605607791,
+        "text": 0.5382266237534246,
+        "kg": 0.40985562704202294
+      },
+      "per_type_n": {
+        "table": 359,
+        "text": 717,
+        "kg": 210
+      },
+      "routing_acc": 0.7091757387247278,
+      "routing_macro": 0.7424836873363114,
+      "routing_per_type_acc": {
+        "text": 0.6527196652719666,
+        "table": 0.7604456824512534,
+        "kg": 0.8142857142857143
+      }
+    },
+    {
+      "method": "phase3_seed123",
+      "reader": "GPT-4o-mini",
+      "n": 1286,
+      "f1_mean": 0.43364583993733147,
+      "em_mean": 0.3024883359253499,
+      "recall_at_picked": 0.7177293934681181,
+      "per_type_f1": {
+        "table": 0.26719654959999734,
+        "text": 0.5344917298913237,
+        "kg": 0.3738781834330004
+      },
+      "per_type_n": {
+        "table": 359,
+        "text": 717,
+        "kg": 210
+      },
+      "routing_acc": 0.7317262830482115,
+      "routing_macro": 0.7329566588468,
+      "routing_per_type_acc": {
+        "text": 0.702928870292887,
+        "table": 0.8245125348189415,
+        "kg": 0.6714285714285714
+      }
+    },
+    {
+      "method": "phase3_seed2026",
+      "reader": "GPT-4o-mini",
+      "n": 1286,
+      "f1_mean": 0.43862427899013473,
+      "em_mean": 0.30637636080870917,
+      "recall_at_picked": 0.7146189735614308,
+      "per_type_f1": {
+        "table": 0.26199375028272237,
+        "text": 0.53699615501671,
+        "kg": 0.40470868229921353
+      },
+      "per_type_n": {
+        "table": 359,
+        "text": 717,
+        "kg": 210
+      },
+      "routing_acc": 0.7433903576982893,
+      "routing_macro": 0.7351476645016347,
+      "routing_per_type_acc": {
+        "text": 0.7461645746164575,
+        "table": 0.7688022284122563,
+        "kg": 0.6904761904761905
+      }
+    }
+  ],
+  "phase3": {
+    "method": "phase3",
+    "reader": "GPT-4o-mini",
+    "n_seeds": 3,
+    "f1_mean": 0.43735770497461673,
+    "f1_mean_std": 0.0026684327468223757,
+    "em_mean": 0.3058579574909279,
+    "em_mean_std": 0.0025659655097490216,
+    "recall_at_picked": 0.7135821669258683,
+    "recall_at_picked_std": 0.0038793752066085497,
+    "routing_acc": 0.728097459823743,
+    "routing_acc_std": 0.01420179111643623,
+    "routing_macro": 0.7368626702282487,
+    "routing_macro_std": 0.004074064427712611,
+    "per_type_f1": {
+      "table": {
+        "mean": 0.2633127201478329,
+        "std": 0.0027929863002332253
+      },
+      "kg": {
+        "mean": 0.39614749759141227,
+        "std": 0.015886357351742972
+      },
+      "text": {
+        "mean": 0.5365715028871527,
+        "std": 0.0015540495731352802
+      }
+    }
+  },
+  "phase4_per_seed": [
+    {
+      "method": "phase4_seed42",
+      "reader": "GPT-4o-mini",
+      "n": 1286,
+      "f1_mean": 0.4354974534674643,
+      "em_mean": 0.3024883359253499,
+      "recall_at_picked": 0.7200622083981337,
+      "per_type_f1": {
+        "table": 0.27816651433040784,
+        "text": 0.5354877825869243,
+        "kg": 0.3630628876177046
+      },
+      "per_type_n": {
+        "table": 359,
+        "text": 717,
+        "kg": 210
+      },
+      "routing_acc": 0.7472783825816485,
+      "routing_macro": 0.7150973561376704,
+      "routing_per_type_acc": {
+        "text": 0.7768479776847977,
+        "table": 0.7827298050139275,
+        "kg": 0.5857142857142857
+      }
+    },
+    {
+      "method": "phase4_seed123",
+      "reader": "GPT-4o-mini",
+      "n": 1286,
+      "f1_mean": 0.43266865645216723,
+      "em_mean": 0.30171073094867806,
+      "recall_at_picked": 0.7293934681181959,
+      "per_type_f1": {
+        "table": 0.27739684141588805,
+        "text": 0.5390282004595053,
+        "kg": 0.33496764952246644
+      },
+      "per_type_n": {
+        "table": 359,
+        "text": 717,
+        "kg": 210
+      },
+      "routing_acc": 0.7511664074650077,
+      "routing_macro": 0.7230583393133946,
+      "routing_per_type_acc": {
+        "text": 0.7629009762900977,
+        "table": 0.83008356545961,
+        "kg": 0.5761904761904761
+      }
+    },
+    {
+      "method": "phase4_seed2026",
+      "reader": "GPT-4o-mini",
+      "n": 1286,
+      "f1_mean": 0.43758880159384855,
+      "em_mean": 0.30637636080870917,
+      "recall_at_picked": 0.7255054432348367,
+      "per_type_f1": {
+        "table": 0.27461733839377567,
+        "text": 0.5378329751003921,
+        "kg": 0.373930148663537
+      },
+      "per_type_n": {
+        "table": 359,
+        "text": 717,
+        "kg": 210
+      },
+      "routing_acc": 0.7542768273716952,
+      "routing_macro": 0.7114978679902165,
+      "routing_per_type_acc": {
+        "text": 0.7949790794979079,
+        "table": 0.7966573816155988,
+        "kg": 0.5428571428571428
+      }
+    }
+  ],
+  "phase4": {
+    "method": "phase4",
+    "reader": "GPT-4o-mini",
+    "n_seeds": 3,
+    "f1_mean": 0.43525163717116006,
+    "f1_mean_std": 0.0020161475297291024,
+    "em_mean": 0.3035251425609124,
+    "em_mean_std": 0.0020409559030616434,
+    "recall_at_picked": 0.7249870399170554,
+    "recall_at_picked_std": 0.0038270666304389333,
+    "routing_acc": 0.7509072058061171,
+    "routing_acc_std": 0.002862975898700724,
+    "routing_macro": 0.7165511878137605,
+    "routing_macro_std": 0.004830206635352687,
+    "per_type_f1": {
+      "table": {
+        "mean": 0.27672689804669054,
+        "std": 0.001524419134346156
+      },
+      "kg": {
+        "mean": 0.357320228601236,
+        "std": 0.016416509662817134
+      },
+      "text": {
+        "mean": 0.5374496527156072,
+        "std": 0.0014705649064516103
+      }
+    }
+  },
+  "api_cost": {
+    "total_usd": 1.2222627,
+    "input_tokens": 8113954,
+    "output_tokens": 8616
+  },
+  "random": {
+    "method": "random",
+    "reader": "GPT-4o-mini",
+    "n": 1286,
+    "f1_mean": 0.3503962107322088,
+    "em_mean": 0.25038880248833595,
+    "recall_at_picked": 0.3856920684292379,
+    "per_type_f1": {
+      "table": 0.12840772514216953,
+      "text": 0.47976254171744376,
+      "kg": 0.2881971964960687
+    },
+    "per_type_n": {
+      "table": 359,
+      "text": 717,
+      "kg": 210
+    },
+    "routing_acc": 0.3328149300155521,
+    "routing_macro": 0.33654513961153737,
+    "routing_per_type_acc": {
+      "text": 0.3277545327754533,
+      "table": 0.3342618384401114,
+      "kg": 0.3476190476190476
+    }
+  },
+  "majority": {
+    "method": "majority",
+    "reader": "GPT-4o-mini",
+    "n": 1286,
+    "f1_mean": 0.363211935892244,
+    "em_mean": 0.25194401244167963,
+    "recall_at_picked": 0.5583203732503889,
+    "per_type_f1": {
+      "table": 0.10158428196879776,
+      "text": 0.5358780829626739,
+      "kg": 0.22093908022090547
+    },
+    "per_type_n": {
+      "table": 359,
+      "text": 717,
+      "kg": 210
+    },
+    "routing_acc": 0.557542768273717,
+    "routing_macro": 0.3333333333333333,
+    "routing_per_type_acc": {
+      "text": 1.0,
+      "table": 0.0,
+      "kg": 0.0
+    }
+  },
+  "no_routing": {
+    "method": "no_routing",
+    "reader": "GPT-4o-mini",
+    "n": 1286,
+    "f1_mean": 0.4421626160611405,
+    "em_mean": 0.30793157076205285,
+    "recall_at_picked": 0.7954898911353032,
+    "per_type_f1": {
+      "table": 0.27868267254677204,
+      "text": 0.5539038990951444,
+      "kg": 0.34011880551960466
+    },
+    "per_type_n": {
+      "table": 359,
+      "text": 717,
+      "kg": 210
+    }
+  },
+  "api_cost_baselines": {
+    "total_usd": 0.57965235,
+    "input_tokens": 3849005,
+    "output_tokens": 3836
+  }
+}

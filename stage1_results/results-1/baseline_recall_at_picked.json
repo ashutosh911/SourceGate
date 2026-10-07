@@ -1,0 +1,20 @@
+{
+  "calibration_model": {
+    "a": 0.924,
+    "b": -0.122,
+    "r2": 0.9997
+  },
+  "known_exact": {
+    "random": 0.385,
+    "majority": 0.558,
+    "oracle": 0.802,
+    "sg_phase3": 0.714,
+    "sg_phase4": 0.725
+  },
+  "calibrated": {
+    "bge_confidence": 0.7143421461897357,
+    "prefrag_conf": 0.3119782270606532,
+    "logistic_regression": 0.6640466562986004,
+    "mlp_hard_ce": 0.7028460342146191
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "no_routing": {
+    "method": "no_routing",
+    "reader": "Llama-3.3-70B-Instruct",
+    "n": 10,
+    "f1_mean": 0.3424961597542243,
+    "em_mean": 0.2,
+    "recall_at_picked": null,
+    "routing_acc": null,
+    "routing_macro": null,
+    "per_type_f1": {
+      "table": 0.16274961597542242,
+      "text": 0.7619047619047619
+    },
+    "per_type_n": {
+      "table": 7,
+      "text": 3
+    }
+  },
+  "api_cost": {
+    "total_usd": 0.03748536,
+    "input_tokens": 42543,
+    "output_tokens": 54
+  }
+}

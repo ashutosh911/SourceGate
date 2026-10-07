@@ -1,27 +1,59 @@
 # SourceGate — code and artifacts
 
-Supervised routing for multi-source retrieval-augmented generation.
-Anonymous release accompanying manuscript NEUCOM-D-26-14977 (Neurocomputing, under review).
+Supervised source routing for multi-source retrieval-augmented generation.
+Accompanies manuscript NEUCOM-D-26-14977, under review at *Neurocomputing*.
 
-Everything reported in the paper is reproducible from this bundle, except the FAISS
-indices, which are too large to host here and are rebuilt by a script (see below).
+Everything reported in the paper is reproducible from this repository, except the
+FAISS indices, which are too large to host here and are rebuilt by a script.
 
 ---
 
+## Setup
+
+The scripts expect the artifacts in `phase5_results/` and the checkpoints in
+`checkpoints/`. The upload is split across several directories, so assemble them
+first:
+
+```bash
+bash setup.sh
+```
+
+Or equivalently:
+
+```bash
+mkdir -p phase5_results checkpoints
+cp stage1_results/results-1/* stage1_results/results-2/* stage2_results/* phase5_results/
+cp checkpoint_a/checkpoints/* checkpoint_b/* checkpoints/
+```
+
+After that, run any script from the repository root.
+
 ## Contents
 
-| Directory | What it holds |
+| Path | What it holds |
 |---|---|
 | `scripts/` | All training, evaluation and analysis code (92 files), plus the figure generators |
-| `results/` | The stored artifacts behind every table and figure (111 files) |
-| `checkpoints/` | The 12 router checkpoints behind the reported results: K=3 seeds 42/123/2026 (461,059 parameters) and the K=5 seeds, the paper's 7/99/314 plus the ten-seed extension of Section 7.3 (461,317 parameters). Each carries its own `val_macro` and `val_per_type`. |
+| `stage1_results/`, `stage2_results/` | The 111 stored artifacts behind every table and figure. Assemble into `phase5_results/` — see Setup |
+| `checkpoint_a/`, `checkpoint_b/` | The 13 router checkpoints. Assemble into `checkpoints/` — see Setup |
 | `figures/` | The 13 figures as published |
+
+### The checkpoints
+
+Thirteen in total, all 461K parameters, all behind reported results:
+
+- **K=3**, seeds 42 / 123 / 2026 — 461,059 parameters
+- **K=5**, the paper's seeds 7 / 99 / 314 plus the seven-seed extension of
+  Section 7.3 (555, 1234, 2718, 31337, 161803, 271828, 8675309) — 461,317 parameters
+
+Each carries its own `val_macro` and `val_per_type`. **Read the K=5 per-dataset
+development accuracies from these fields**, not from a pretraining log — see the note
+below.
 
 ## The FAISS indices
 
-The five per-source indices total **9.16 GiB** and are not included. Rebuild them with:
+The five per-source indices total **9.16 GiB** and are not included. Rebuild with:
 
-```
+```bash
 python scripts/build_text_index.py      # per-source dense indices (BGE-base-en-v1.5)
 python scripts/build_chunk_db.py        # chunk-id -> text mapping
 ```
@@ -34,7 +66,7 @@ see the manuscript's Data Availability statement.
 | Result | Entry point |
 |---|---|
 | SourceGate training (K=3 and K=5) | `scripts/script_5b_k3_FINAL.py`, `scripts/script_5b_k5.py` |
-| Joint training (gradient bridge stage) | `scripts/script_6_joint_training.py` |
+| Joint training (gradient-bridge stage) | `scripts/script_6_joint_training.py` |
 | Main results table | `scripts/script_7_evaluation.py`, `scripts/script_10_reader_scaling.py` |
 | Confidence baselines (PrefRAG-Conf, BGE-confidence) | `scripts/script_12_prefrag_conf.py`, `scripts/script_25_bge_conf_eval.py` |
 | R³AG adaptations | `scripts/script_13_r3ag.py` |
@@ -48,29 +80,32 @@ see the manuscript's Data Availability statement.
 
 ## Notes that will save you time
 
-**Two NLL routines, ~2.4 nats apart.** Every gold-answer NLL in the paper comes from
-`compute_l_ans_sequential` (top-10 chunks, 2048-token cap, answer span masked). The
-reader-scaling script's `compute_nll` truncates differently and is not used for any
+**Two NLL routines, about 2.4 nats apart.** Every gold-answer NLL in the paper comes
+from `compute_l_ans_sequential` (top-10 chunks, 2048-token cap, answer span masked).
+The reader-scaling script's `compute_nll` truncates differently and is not used for any
 reported value.
 
 **A third quantity, NLL₈₀₀.** The mix-versus-selection decomposition and the
-donor-context control are computed on `results/ceg_scores_d10.npz`, a counterfactual
-matrix holding scores for *all three* sources of every query under a common
-800-character budget. Its absolute values are not comparable with the table column;
-the decomposition is internal to the matrix.
+donor-context control are computed on `phase5_results/ceg_scores_d10.npz`, a
+counterfactual matrix holding scores for *all three* sources of every query under a
+common 800-character budget. Its absolute values are not comparable with the table
+column; the decomposition is internal to the matrix.
 
 **K=5 seeds.** The paper's K=5 results use seeds 7, 99 and 314. Their per-dataset
-development accuracies are stored in the checkpoints' own `val_per_type` field —
-read them from `checkpoints/sourceformer_k5_seed{7,99,314}_best.pt`, not from a
-pretraining log. `results/routing_pretrain_k5_log_THREE_SEEDS.json` is the matching
-three-seed log.
+development accuracies live in the checkpoints' own `val_per_type` field. Do not read
+them from `routing_pretrain_k5_log.json` in a working copy — that file is overwritten by
+the ten-seed extension runs. `phase5_results/routing_pretrain_k5_log_THREE_SEEDS.json`
+is the matching three-seed log.
 
 **Release FAISS before loading the reader.** Scripts that do both will be OOM-killed
-otherwise; `script_40` line 147 shows the pattern.
+otherwise; `scripts/script_40_contrastive_evidence_gain.py` line 147 shows the pattern.
 
 **Label convention.** The canonical K=3 routing label is the argmax over summed
 per-source `dataset_score`, giving 717 text / 359 table / 210 kg on the test split.
 
 **Recall@picked convention.** Per-source-type indices are merged and the global top-10
 kept, so each source returns ten chunks in total rather than ten per index.
-`results/recall_at_picked_canonical.json` is authoritative.
+`phase5_results/recall_at_picked_canonical.json` is authoritative.
+
+**API keys.** `script_9_stronger_reader.py` and `script_15_baselines_openai.py` read
+`OPENAI_API_KEY` from the environment. Export it before running; nothing is hardcoded.

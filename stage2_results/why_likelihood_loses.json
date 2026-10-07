@@ -1,0 +1,63 @@
+{
+  "n": 1284,
+  "protocol": "stratified 5-fold CV on test (UPPER BOUND)",
+  "raw_argmax_macro": 0.588252874371506,
+  "M2_decision_rule": {
+    "likelihood_raw3__logreg": {
+      "macro": 0.550741036480473,
+      "sd": 0.013034300523574047
+    },
+    "likelihood_raw3__gbm": {
+      "macro": 0.5351637342834527,
+      "sd": 0.03318920202634346
+    },
+    "likelihood_engineered__logreg": {
+      "macro": 0.5613017590130266,
+      "sd": 0.012419245359145454
+    },
+    "likelihood_engineered__gbm": {
+      "macro": 0.5350962222441096,
+      "sd": 0.030265421939774113
+    }
+  },
+  "M1_subsumption": {
+    "embedding_only": {
+      "macro": 0.602113627113627,
+      "sd": 0.0214466027794757
+    },
+    "embedding_plus_likelihood": {
+      "macro": 0.6248790919565568,
+      "sd": 0.03009997485557202
+    },
+    "embedding_plus_engineered": {
+      "macro": 0.6357789315535795,
+      "sd": 0.027932275081815824
+    },
+    "delta_likelihood_adds": 0.02276546484292974,
+    "embedding_wrong_n": 420,
+    "likelihood_correct_where_embedding_wrong": 0.569047619047619,
+    "chance_on_those": 0.5
+  },
+  "M3_retrieval_ceiling": {
+    "any_source_hit": {
+      "n": 1104,
+      "raw_argmax_macro": 0.6102259678865374,
+      "embedding_cv_macro": 0.6106180544189097
+    },
+    "no_source_hit": {
+      "n": 180,
+      "raw_argmax_macro": 0.5306622628726287,
+      "embedding_cv_macro": 0.5401761517615177
+    },
+    "gold_source_hit": {
+      "n": 1031,
+      "raw_argmax_macro": 0.6292584531450384,
+      "embedding_cv_macro": 0.6119498960120425
+    },
+    "gold_source_miss": {
+      "n": 253,
+      "raw_argmax_macro": 0.4740882557201043,
+      "embedding_cv_macro": 0.5329705394179746
+    }
+  }
+}

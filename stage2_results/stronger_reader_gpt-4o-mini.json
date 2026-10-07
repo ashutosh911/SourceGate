@@ -1,0 +1,226 @@
+{
+  "results": [
+    {
+      "id": "tat_84",
+      "query": "Which years did Cash and cash equivalents and restricted cash exceed $100,000?",
+      "gold": "2018",
+      "llama_pred": "Based on the provided information, the years when Cash and cash equivalents and restricted cash exceeded $100,000 are:\n\n* 2019: $226,254",
+      "llama_f1": 0.0,
+      "llama_em": 0.0,
+      "gpt-4o-mini_pred": "",
+      "gpt-4o-mini_f1": 0.0,
+      "gpt-4o-mini_em": 0.0
+    },
+    {
+      "id": "tat_146",
+      "query": "What was the change in operating revenues from 2017 to 2018?",
+      "gold": "4829",
+      "llama_pred": "The change in operating revenues from 2017 to 2018 was a decrease of $2,291,057 to $2,815,241, which",
+      "llama_f1": 0.0,
+      "llama_em": 0.0,
+      "gpt-4o-mini_pred": "",
+      "gpt-4o-mini_f1": 0.0,
+      "gpt-4o-mini_em": 0.0
+    },
+    {
+      "id": "tat_318",
+      "query": "What was the percentage change in the Weighted average share price (pence)?",
+      "gold": "44.46",
+      "llama_pred": "The Weighted average share price (pence) in 2019 was 676.10, and in 2018 it was 628.23.",
+      "llama_f1": 0.0,
+      "llama_em": 0.0,
+      "gpt-4o-mini_pred": "",
+      "gpt-4o-mini_f1": 0.0,
+      "gpt-4o-mini_em": 0.0
+    },
+    {
+      "id": "tat_363",
+      "query": "What are the interest expense comprised of?",
+      "gold": "costs associated with capital leases and loans on corporate-owned life insurance policies.",
+      "llama_pred": "The interest expense is comprised of the following:\n\n* Interest before impact of interest rate caps\n* Impact of interest rate caps\n* Interest expense on capital leases",
+      "llama_f1": 0.1714285714285714,
+      "llama_em": 0.0,
+      "gpt-4o-mini_pred": "",
+      "gpt-4o-mini_f1": 0.0,
+      "gpt-4o-mini_em": 0.0
+    },
+    {
+      "id": "tat_591",
+      "query": "What is the increase/ (decrease) in Global Technology Services external revenue ",
+      "gold": "-67",
+      "llama_pred": "The increase/decrease in Global Technology Services external revenue from 2017 to 2018 is not explicitly stated in the provided text. However, based on the",
+      "llama_f1": 0.0,
+      "llama_em": 0.0,
+      "gpt-4o-mini_pred": "",
+      "gpt-4o-mini_f1": 0.0,
+      "gpt-4o-mini_em": 0.0
+    },
+    {
+      "id": "tat_771",
+      "query": "What was the change in the salary of Gavin Darby from 2017/18 to 2018/19?",
+      "gold": "-117",
+      "llama_pred": "The text does not provide information on the salary of Gavin Darby for the years 2017/18 and 2018/19. However, it does",
+      "llama_f1": 0.0,
+      "llama_em": 0.0,
+      "gpt-4o-mini_pred": "",
+      "gpt-4o-mini_f1": 0.0,
+      "gpt-4o-mini_em": 0.0
+    },
+    {
+      "id": "tat_1625",
+      "query": "What are the years that information regarding Research and development is provid",
+      "gold": "2018', '2019",
+      "llama_pred": "The years that information regarding Research and development is provided are:\n\n* 2019\n* 2018\n* 2017\n* 2019 vs",
+      "llama_f1": 0.23529411764705882,
+      "llama_em": 0.0,
+      "gpt-4o-mini_pred": "",
+      "gpt-4o-mini_f1": 0.0,
+      "gpt-4o-mini_em": 0.0
+    },
+    {
+      "id": "tat_197",
+      "query": "Where does the company file income tax returns?",
+      "gold": "in the U.S. federal jurisdiction and the state of California",
+      "llama_pred": "The company files income tax returns in various federal, state, and local jurisdictions, including the United States, Canada, United Kingdom, and France.",
+      "llama_f1": 0.28571428571428575,
+      "llama_em": 0.0,
+      "gpt-4o-mini_pred": "",
+      "gpt-4o-mini_f1": 0.0,
+      "gpt-4o-mini_em": 0.0
+    },
+    {
+      "id": "tat_72",
+      "query": "Why did revenue increase on Office 365 Commercial in 2019 from 2018?",
+      "gold": "due to growth in seats and higher average revenue per user",
+      "llama_pred": "The text does not provide information on the increase in revenue for Office 365 Commercial in 2019 from 2018. However, it does mention that the",
+      "llama_f1": 0.12121212121212123,
+      "llama_em": 0.0,
+      "gpt-4o-mini_pred": "",
+      "gpt-4o-mini_f1": 0.0,
+      "gpt-4o-mini_em": 0.0
+    },
+    {
+      "id": "tat_458",
+      "query": "What is the total weight of Nordic Freedom and Nordic Moon?",
+      "gold": "319636",
+      "llama_pred": "I don't have access to a search engine to provide information about Nordic Freedom and Nordic Moon.",
+      "llama_f1": 0.0,
+      "llama_em": 0.0,
+      "gpt-4o-mini_pred": "",
+      "gpt-4o-mini_f1": 0.0,
+      "gpt-4o-mini_em": 0.0
+    },
+    {
+      "id": "tat_81",
+      "query": "What does the income tax expense in the third quarter of 2019, reflect?",
+      "gold": "in the third quarter of 2019 the estimated annual effective tax rate in each of our jurisdictions, applied to the consolidated results before taxes in the third quarter of 2019",
+      "llama_pred": "The income tax expense in the third quarter of 2019 reflects a decrease of $15 million compared to the same period in the previous year.",
+      "llama_f1": 0.3913043478260869,
+      "llama_em": 0.0,
+      "gpt-4o-mini_pred": "",
+      "gpt-4o-mini_f1": 0.0,
+      "gpt-4o-mini_em": 0.0
+    },
+    {
+      "id": "tat_401",
+      "query": "What is the change in Weighted-average shares used in computing basic net income",
+      "gold": "1512",
+      "llama_pred": "According to the table, the Weighted-average shares used in computing basic net income per share for the Fiscal Year Ended December 28, 2019 is",
+      "llama_f1": 0.0,
+      "llama_em": 0.0,
+      "gpt-4o-mini_pred": "",
+      "gpt-4o-mini_f1": 0.0,
+      "gpt-4o-mini_em": 0.0
+    },
+    {
+      "id": "tat_473",
+      "query": "What was the change in the Risk-free interest rate from 2018 to 2019?",
+      "gold": "0.9",
+      "llama_pred": "The risk-free rate in 2018 was 1.77%~2.27%, and in 2019 it was 1.08%~",
+      "llama_f1": 0.0,
+      "llama_em": 0.0,
+      "gpt-4o-mini_pred": "",
+      "gpt-4o-mini_f1": 0.0,
+      "gpt-4o-mini_em": 0.0
+    },
+    {
+      "id": "tat_96",
+      "query": "What was the Cost of SaaS and license revenue in 2019?",
+      "gold": "$50,066",
+      "llama_pred": "The Cost of SaaS and license revenue in 2019 was $282,341.",
+      "llama_f1": 0.0,
+      "llama_em": 0.0,
+      "gpt-4o-mini_pred": "",
+      "gpt-4o-mini_f1": 0.0,
+      "gpt-4o-mini_em": 0.0
+    },
+    {
+      "id": "tat_440",
+      "query": "When did the Company ceased the usage of peer group volatility?",
+      "gold": "During fiscal 2017",
+      "llama_pred": "During fiscal 2017.",
+      "llama_f1": 1.0,
+      "llama_em": 1.0,
+      "gpt-4o-mini_pred": "",
+      "gpt-4o-mini_f1": 0.0,
+      "gpt-4o-mini_em": 0.0
+    },
+    {
+      "id": "tat_789",
+      "query": "How many post-employment benefit plans are there?",
+      "gold": "3",
+      "llama_pred": "There are 5 post-employment benefit plans mentioned:\n\n1. Defined benefit pension plans\n2. Non pension postretirement benefit plans\n3. Multi-",
+      "llama_f1": 0.09523809523809523,
+      "llama_em": 0.0,
+      "gpt-4o-mini_pred": "",
+      "gpt-4o-mini_f1": 0.0,
+      "gpt-4o-mini_em": 0.0
+    },
+    {
+      "id": "tat_1765",
+      "query": "What is the increase / (decrease) in the external gross profit from 2017 to 2018",
+      "gold": "415",
+      "llama_pred": "The external gross profit increased by $216.0 million, or 56.8%, from 2017 to 2018.",
+      "llama_f1": 0.0,
+      "llama_em": 0.0,
+      "gpt-4o-mini_pred": "",
+      "gpt-4o-mini_f1": 0.0,
+      "gpt-4o-mini_em": 0.0
+    },
+    {
+      "id": "tat_209",
+      "query": "In which year was the total amount of property, plant and equipment larger?",
+      "gold": "2019",
+      "llama_pred": "According to the provided information, the total amount of property, plant and equipment was larger in 2018 compared to 2019.",
+      "llama_f1": 0.10526315789473684,
+      "llama_em": 0.0,
+      "gpt-4o-mini_pred": "",
+      "gpt-4o-mini_f1": 0.0,
+      "gpt-4o-mini_em": 0.0
+    },
+    {
+      "id": "tat_39",
+      "query": "What is the average Selling, general and administrative expenses for the period ",
+      "gold": "276",
+      "llama_pred": "To calculate the average Selling, general and administrative expenses for the period December 31, 2019 and September 29, 2019, we need to",
+      "llama_f1": 0.0,
+      "llama_em": 0.0,
+      "gpt-4o-mini_pred": "",
+      "gpt-4o-mini_f1": 0.0,
+      "gpt-4o-mini_em": 0.0
+    },
+    {
+      "id": "tat_99",
+      "query": "What caused the Systems Hardware revenue to decline?",
+      "gold": "driven primarily by declines in Power Systems and Storage Systems.",
+      "llama_pred": "The Systems Hardware revenue declined due to declines in Power Systems and Storage Systems.",
+      "llama_f1": 0.608695652173913,
+      "llama_em": 0.0,
+      "gpt-4o-mini_pred": "",
+      "gpt-4o-mini_f1": 0.0,
+      "gpt-4o-mini_em": 0.0
+    }
+  ],
+  "total_cost": 0.0,
+  "model": "gpt-4o-mini"
+}

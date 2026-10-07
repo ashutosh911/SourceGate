@@ -1,0 +1,10 @@
+{
+  "42": {
+    "acc": NaN,
+    "macro_acc": NaN,
+    "recall_at_picked_source": NaN,
+    "loss_ans": NaN,
+    "diagnostic_only": true,
+    "answer_bridge_grad_norm": 3.844810388982296
+  }
+}

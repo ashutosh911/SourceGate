@@ -1,0 +1,96 @@
+{
+  "mmrag_k3": {
+    "n": 1284,
+    "k": 3,
+    "T2_oracle": {
+      "sg_macro": 0.7414893991069231,
+      "sg_plus_sim_oracle": 0.7898753364665252,
+      "sg_plus_sim_reader_oracle": 0.804324351776973,
+      "oracle_reader_gain": 0.014449015310447844,
+      "permutation_floor_mean": 0.0040071590700436945,
+      "permutation_floor_p95": 0.008862596642562236,
+      "p_vs_permutation": 0.0
+    },
+    "T1_equivalence": {
+      "point": 0.008310420102058251,
+      "ci95": [
+        -0.007181287407109207,
+        0.02459300933738217
+      ],
+      "upper_90_one_sided": 0.018839492063611997,
+      "upper_95_one_sided": 0.02188562748707882
+    },
+    "T3_redundancy": {
+      "r2_reader_from_similarity": 0.23943230175835703,
+      "per_source_pearson": [
+        0.5783489738149792,
+        0.18351616479832475,
+        0.4558283709250147
+      ],
+      "argmax_agreement": 0.6043613707165109,
+      "reader_macro": 0.588252874371506,
+      "similarity_macro": 0.6606432810223112
+    },
+    "T4_per_source": {
+      "0": {
+        "n": 717,
+        "sg_plus_sim": 0.6680613668061367,
+        "sg_plus_sim_reader": 0.6499302649930265
+      },
+      "1": {
+        "n": 357,
+        "sg_plus_sim": 0.8627450980392157,
+        "sg_plus_sim_reader": 0.8823529411764706
+      },
+      "2": {
+        "n": 210,
+        "sg_plus_sim": 0.7952380952380952,
+        "sg_plus_sim_reader": 0.819047619047619
+      }
+    }
+  },
+  "ottqa_k2": {
+    "n": 2214,
+    "k": 2,
+    "T2_oracle": {
+      "sg_macro": 0.6635514178048323,
+      "sg_plus_sim_oracle": 0.6925128310058486,
+      "sg_plus_sim_reader_oracle": 0.7127815574539192,
+      "oracle_reader_gain": 0.02026872644807065,
+      "permutation_floor_mean": 0.0033337340358415178,
+      "permutation_floor_p95": 0.006964209592988578,
+      "p_vs_permutation": 0.0
+    },
+    "T1_equivalence": {
+      "point": 0.011627152739505695,
+      "ci95": [
+        -0.003996408711707952,
+        0.02751267084266439
+      ],
+      "upper_90_one_sided": 0.021867240487383754,
+      "upper_95_one_sided": 0.024739069575557677
+    },
+    "T3_redundancy": {
+      "r2_reader_from_similarity": 0.17713997100672835,
+      "per_source_pearson": [
+        0.3322330527391272,
+        0.49179127020158614
+      ],
+      "argmax_agreement": 0.7231255645889793,
+      "reader_macro": 0.38909407130799534,
+      "similarity_macro": 0.41413371527955395
+    },
+    "T4_per_source": {
+      "0": {
+        "n": 519,
+        "sg_plus_sim": 0.6204238921001927,
+        "sg_plus_sim_reader": 0.6628131021194605
+      },
+      "1": {
+        "n": 1695,
+        "sg_plus_sim": 0.7510324483775811,
+        "sg_plus_sim_reader": 0.7321533923303835
+      }
+    }
+  }
+}
